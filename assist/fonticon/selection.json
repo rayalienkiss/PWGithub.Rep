@@ -1,0 +1,68 @@
+{
+	"IcoMoonType": "selection",
+	"icons": [
+		{
+			"icon": {
+				"paths": [
+					"M853.333 661.333c-53.12 0-104.32-8.533-152.32-24.32-14.72-4.693-31.573-1.28-43.307 10.453l-93.867 94.080c-120.96-61.44-219.52-160.213-281.173-280.96l93.867-94.080c11.733-11.733 15.147-28.587 10.453-43.307-15.787-48-24.32-99.413-24.32-152.533 0-23.68-18.987-42.667-42.667-42.667h-149.333c-23.68 0-42.667 18.987-42.667 42.667 0 400.64 324.693 725.333 725.333 725.333 23.68 0 42.667-18.987 42.667-42.667v-149.333c0-23.68-18.987-42.667-42.667-42.667zM810.667 512h85.333c0-212.053-171.947-384-384-384v85.333c164.907 0 298.667 133.76 298.667 298.667zM640 512h85.333c0-117.76-95.573-213.333-213.333-213.333v85.333c70.613 0 128 57.387 128 128z"
+				],
+				"attrs": [],
+				"isMulticolor": false,
+				"tags": [
+					"phone-in-talk"
+				],
+				"grid": 24
+			},
+			"attrs": [],
+			"properties": {
+				"id": 707,
+				"order": 3,
+				"prevSize": 24,
+				"code": 58880,
+				"name": "tel01"
+			},
+			"setIdx": 0,
+			"setId": 19,
+			"iconIdx": 0
+		}
+	],
+	"height": 1024,
+	"metadata": {
+		"name": "fonticon"
+	},
+	"preferences": {
+		"showGlyphs": true,
+		"showQuickUse": true,
+		"showQuickUse2": true,
+		"showSVGs": true,
+		"fontPref": {
+			"prefix": "icon-",
+			"metadata": {
+				"fontFamily": "fonticon",
+				"majorVersion": 1,
+				"minorVersion": 0
+			},
+			"metrics": {
+				"emSize": 1024,
+				"baseline": 6.25,
+				"whitespace": 50
+			},
+			"showSelector": false,
+			"showMetrics": false,
+			"showMetadata": false,
+			"showVersion": false,
+			"resetPoint": 58880,
+			"ie7": true
+		},
+		"imagePref": {
+			"prefix": "icon-",
+			"png": true,
+			"useClassSelector": true,
+			"color": 4473924,
+			"bgColor": 16777215
+		},
+		"historySize": 100,
+		"showCodes": false,
+		"gridSize": 16
+	}
+}

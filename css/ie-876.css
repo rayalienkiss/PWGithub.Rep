@@ -3,3 +3,16 @@
 */
 
 @charset "UTF-8";
+
+/* 主导航 */
+nav .sign-box > .p1 > li.last {
+  padding: 0;
+  border-right: none;
+}
+
+/* 页脚 */
+footer .footer-nav > li.last {
+  padding: 0;
+  margin: 0;
+  border-right: none;
+}
