@@ -278,3 +278,28 @@ footer {
         }
     }
 }
+
+.partners {
+    .reset-list( left,block,0,0 );
+    .clearfix();
+    padding: 30px 0 0 0;
+
+    > li {
+        padding: 0 25px 10px 0;
+
+        > a {
+            .adv-link-box( none,block,@base-fontSize - 2px,0,1px,@base-box-border-color );
+            cursor: default;
+
+            > img {
+                width: 180px;
+                height: 70px;
+                .transition( all,0.3s,ease,0 );
+            }
+        }
+
+        &:nth-child(5n) {
+            padding: 0 0 10px 0;
+        }
+    }
+}

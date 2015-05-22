@@ -16,3 +16,19 @@ footer .footer-nav > li.last {
   margin: 0;
   border-right: none;
 }
+
+/* 个人企业服务页 描述区域 */
+.details > b {
+  background: url('../img/sprite.png') transparent no-repeat;
+  background-position: -142px 0;
+}
+
+/* 合作伙伴 */
+.partners > li.last {
+  padding: 0 0 10px 0;
+}
+
+/* 页底导航页面 标题副文本 */
+.bnp-topic-wrap > h1 > span {
+  color: #bfbfbf;
+}

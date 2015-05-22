@@ -1,0 +1,83 @@
+@import "_share";
+
+/*
+--- bottomNavPage ---
+*/
+
+@charset "UTF-8";
+
+/* banner区域 */
+.bnp-banner-wrap {
+    height: 214px;
+    overflow: hidden;
+    margin: 82px 0 0 0;
+
+    &.our-partners {
+        background: url('@{sprite-url}bottomNavPage_banner01.jpg?v=20150522') #fff center top no-repeat;
+    }
+
+    &.legal-statement {
+        background: url('@{sprite-url}bottomNavPage_banner02.jpg?v=20150522') #fff center top no-repeat;
+    }
+
+    &.privacy-clause {
+        background: url('@{sprite-url}bottomNavPage_banner03.jpg?v=20150522') #fff center top no-repeat;
+    }
+
+    &.recruitment-post {
+        background: url('@{sprite-url}bottomNavPage_banner04.jpg?v=20150522') #fff center top no-repeat;
+    }
+}
+
+/* 内容框架 */
+.bnp-content-wrap {
+    width: @base-mainBody-width;
+    margin: 45px auto 0 auto;
+    min-height: 300px;
+}
+
+.bnp-topic-wrap {
+    border-bottom: 1px solid @base-box-border-color;
+    padding: 0 0 12px 0;
+
+    > h1 {
+        margin: 0;
+        color: @main-topicColor;
+        line-height: 1;
+        font-weight: 500;
+        font-size: @big-fontSize;
+        border-left: 3px solid @main-topicColor;
+        padding: 0 0 0 18px;
+
+        > span {
+            font-size: @base-fontSize + 6px;
+            .opacity-custom( 0.35 );
+            vertical-align: text-bottom;
+        }
+    }
+}
+
+/* 文本定义 */
+.bnp-text-wrap {
+    padding: 30px;
+
+    > p {
+        margin: 0;
+        line-height: 1.8;
+        padding: 0 0 10px 0;
+    }
+
+    > ol {
+        line-height: 1.8;
+        margin-top: 0;
+    }
+}
+
+/* 左右tab结构 */
+.bnp-tab-wrap {
+    .clearfix();
+}
+
+
+
+
