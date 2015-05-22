@@ -71,13 +71,114 @@
         line-height: 1.8;
         margin-top: 0;
     }
+
+    > h1 {
+        color: @mainColor2;
+        font-size: @base-fontSize + 6px;
+        font-weight: 500;
+        margin: 0;
+        line-height: 1.2;
+        padding: 0 0 15px 0;
+    }
 }
 
 /* 左右tab结构 */
 .bnp-tab-wrap {
     .clearfix();
+    padding: 0 0 100px 0;
+
+    > .wrap-left {
+        width: 22%;
+        float: left;
+    }
+
+    > .wrap-right {
+        width: 78%;
+        float: left;
+        border: 1px solid @base-box-border-color;
+        border-top: none;
+        min-height: 800px;
+        padding: 50px;
+    }
+
+    .bnp-tabs {
+        .reset-list( none,block,@base-fontSize,1.4 );
+
+        > li {
+
+            > a {
+                .link( @base-fontColor,0.8,none );
+                padding: 15px 30px;
+                border-bottom: 1px solid @base-box-border-color;
+                position: relative;
+                display: block;
+
+                > em {
+                    background-color: @base-fontColor;
+                    height: 4px;
+                    width: 4px;
+                    display: block;
+                    position: absolute;
+                    top: 22px;
+                    left: 14px;
+                }
+
+                &:hover,
+                &:focus,
+                &:active {
+                    color: @mainColor2;
+
+                    > em {
+                        background-color: @mainColor2;
+                    }
+                }
+            }
+
+            &.active {
+
+                > a {
+                    color: @mainColor2;
+                    border-right: 1px solid #fff;
+                    margin: 0 -1px 0 0;
+                    border-bottom-color: @mainColor2;
+
+                    > em {
+                        background-color: @mainColor2;
+                    }
+                }
+            }
+        }
+    }
 }
 
+/* 联系方式 */
+.contacts {
+    width: 90%;
+    margin: 36px 0 0 0;
+    background-color: #7b85aa;
+    color: #fff;
+    padding: 15px;
+
+    > h1 {
+        font-size: @base-fontSize + 6px;
+        font-weight: 500;
+        margin: 0;
+        line-height: 1.4;
+    }
+
+    > p {
+        font-size: @base-fontSize;
+        margin: 0;
+        line-height: 1.4;
+    }
+
+    > .line {
+        .opacity-custom( 0.3 );
+        background-color: #fff;
+        height: 1px;
+        margin: 15px 0;
+    }
+}
 
 
 

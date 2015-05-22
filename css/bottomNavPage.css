@@ -945,6 +945,7 @@ footer.index > .show {
 footer.index.up {
   bottom: 0;
 }
+/* 合作伙伴 */
 .partners {
   margin: 0;
   padding: 0;
@@ -1021,6 +1022,13 @@ footer.index.up {
 .partners > li:nth-child(5n) {
   padding: 0 0 10px 0;
 }
+/* tab */
+.tab-pane {
+  display: none;
+}
+.tab-pane.active {
+  display: block;
+}
 /*
 --- bottomNavPage ---
 */
@@ -1080,9 +1088,18 @@ footer.index.up {
   line-height: 1.8;
   margin-top: 0;
 }
+.bnp-text-wrap > h1 {
+  color: #d8b45e;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+  line-height: 1.2;
+  padding: 0 0 15px 0;
+}
 /* 左右tab结构 */
 .bnp-tab-wrap {
   *zoom: 1;
+  padding: 0 0 100px 0;
 }
 .bnp-tab-wrap:before,
 .bnp-tab-wrap:after {
@@ -1092,4 +1109,101 @@ footer.index.up {
 }
 .bnp-tab-wrap:after {
   clear: both;
+}
+.bnp-tab-wrap > .wrap-left {
+  width: 22%;
+  float: left;
+}
+.bnp-tab-wrap > .wrap-right {
+  width: 78%;
+  float: left;
+  border: 1px solid #e2e2e2;
+  border-top: none;
+  min-height: 800px;
+  padding: 50px;
+}
+.bnp-tab-wrap .bnp-tabs {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.bnp-tab-wrap .bnp-tabs > li {
+  font-size: 14px;
+  line-height: 1.4;
+  float: none;
+  display: block;
+}
+.bnp-tab-wrap .bnp-tabs > li > a {
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+  cursor: pointer;
+  color: #666666;
+  padding: 15px 30px;
+  border-bottom: 1px solid #e2e2e2;
+  position: relative;
+  display: block;
+}
+.bnp-tab-wrap .bnp-tabs > li > a:hover,
+.bnp-tab-wrap .bnp-tabs > li > a:active {
+  color: #525252;
+  text-decoration: none;
+  outline: none;
+}
+.bnp-tab-wrap .bnp-tabs > li > a:focus {
+  text-decoration: none;
+}
+.bnp-tab-wrap .bnp-tabs > li > a > em {
+  background-color: #666666;
+  height: 4px;
+  width: 4px;
+  display: block;
+  position: absolute;
+  top: 22px;
+  left: 14px;
+}
+.bnp-tab-wrap .bnp-tabs > li > a:hover,
+.bnp-tab-wrap .bnp-tabs > li > a:focus,
+.bnp-tab-wrap .bnp-tabs > li > a:active {
+  color: #d8b45e;
+}
+.bnp-tab-wrap .bnp-tabs > li > a:hover > em,
+.bnp-tab-wrap .bnp-tabs > li > a:focus > em,
+.bnp-tab-wrap .bnp-tabs > li > a:active > em {
+  background-color: #d8b45e;
+}
+.bnp-tab-wrap .bnp-tabs > li.active > a {
+  color: #d8b45e;
+  border-right: 1px solid #fff;
+  margin: 0 -1px 0 0;
+  border-bottom-color: #d8b45e;
+}
+.bnp-tab-wrap .bnp-tabs > li.active > a > em {
+  background-color: #d8b45e;
+}
+/* 联系方式 */
+.contacts {
+  width: 90%;
+  margin: 36px 0 0 0;
+  background-color: #7b85aa;
+  color: #fff;
+  padding: 15px;
+}
+.contacts > h1 {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+  line-height: 1.4;
+}
+.contacts > p {
+  font-size: 14px;
+  margin: 0;
+  line-height: 1.4;
+}
+.contacts > .line {
+  opacity: 0.3;
+  filter: alpha(opacity=30);
+  background-color: #fff;
+  height: 1px;
+  margin: 15px 0;
 }

@@ -945,6 +945,7 @@ footer.index > .show {
 footer.index.up {
   bottom: 0;
 }
+/* 合作伙伴 */
 .partners {
   margin: 0;
   padding: 0;
@@ -1020,6 +1021,13 @@ footer.index.up {
 }
 .partners > li:nth-child(5n) {
   padding: 0 0 10px 0;
+}
+/* tab */
+.tab-pane {
+  display: none;
+}
+.tab-pane.active {
+  display: block;
 }
 /*
 --- index ---
