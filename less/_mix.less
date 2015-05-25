@@ -410,6 +410,14 @@
     }
 }
 
+// 单独属性定义
+.animation-delay( @delay ) {
+    animation-delay: @delay;
+    -moz-animation-delay: @delay;
+    -webkit-animation-delay: @delay;
+    -o-animation-delay: @delay;
+}
+
 & {
     .keyframes( effectOne );
     
@@ -427,6 +435,38 @@
             @{-}box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #f06060, 0 0 0 10px rgba(255,255,255,0.5);
 		    @{-}transform: scale(1.5);
             @{-}opacity: 0;
+        }
+    }
+}
+
+//渐显
+& {
+    .keyframes( show );
+
+    .-frames(@-...) {
+        0% {
+            .opacity-custom( 0 );
+        }
+
+        100% {
+            .opacity-custom( 1 );
+        }
+    }
+}
+
+//下坠 + 渐显
+& {
+    .keyframes( showAndDown );
+
+    .-frames(@-...) {
+        0% {
+            .opacity-custom( 0 );
+            .translate( 0, -500px );
+        }
+
+        100% {
+            .opacity-custom( 1 );
+            .translate( 0, 0 );
         }
     }
 }

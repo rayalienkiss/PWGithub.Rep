@@ -13,6 +13,8 @@
         el.innerHTML = '<span style="font-family: \'fonticon\'">' + entity + '</span>' + html;
     }
     var icons = {
+        'icon-chevron-thin-left': '&#xe601;',
+        'icon-chevron-thin-right': '&#xe602;',
         'icon-tel01': '&#xe600;',
         '0': 0
     },

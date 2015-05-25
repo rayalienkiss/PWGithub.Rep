@@ -1,0 +1,247 @@
+@import "_share";
+
+/*
+--- solution ---
+*/
+
+@charset "UTF-8";
+
+/* banner区域 */
+.solution-banner-wrap {
+    overflow: hidden;
+    position: relative;
+    .transition( all,0.3s,ease,0 );
+
+    * {
+        .transition( all,0.3s,ease,0 );
+    }
+
+    .solution-base {
+        width: @base-mainBody-width;
+        margin: 254px auto 0 auto;
+
+        .solution-title {
+            display: block;
+            /*.animation-s( showAndDown,1.4s,ease,1s,1,normal,normal,backwards );*/
+            .animation-delay( 0.7s );
+        }
+
+        .solution-Text {
+            line-height: 1.8;
+            font-size: @base-fontSize + 2px;
+            margin: 0;
+            padding: 30px 0 0 0;
+            /*.animation-s( show,1s,ease,2.4s,1,normal,normal,backwards );*/
+            .animation-delay( 1.2s );
+        }
+    }
+
+    .solution-nav-wrap {
+        position: absolute;
+        width: @base-mainBody-width;
+        bottom: 32px;
+        left: 50%;
+        margin-left: -( @base-mainBody-width / 2 );
+        height: 104px;
+        overflow: hidden;
+
+        @spanWidth: 138px;
+        @theleft: ( @spanWidth + 5px );
+
+        > a {
+            width: @spanWidth;
+            height: 104px;
+            display: inline-block;
+            position: absolute;
+            top: 0;
+            .link-in-dark( #fff,none );
+            text-align: center;
+            z-index: 1;
+
+            &#nav1 {
+                background-color: #59bc8a;
+                left: 0;
+            }
+
+            &#nav2 {
+                background-color: #8098d4;
+                left: @theleft;
+            }
+
+            &#nav3 {
+                background-color: #d78f6b;
+                left: @theleft * 2;
+            }
+
+            &#nav4 {
+                background-color: #938ebe;
+                left: @theleft * 3;
+            }
+
+            &#nav5 {
+                background-color: #b08f8f;
+                left: @theleft * 4;
+            }
+
+            &#nav6 {
+                background-color: #a08895;
+                left: @theleft * 5;
+            }
+
+            &#nav7 {
+                background-color: #7d97b6;
+                left: @theleft * 6;
+            }
+
+            > b {
+                display: inline-block;
+                height: 100%;
+                vertical-align: middle;
+            }
+
+            > p {
+                margin: 0;
+                line-height: 1.4;
+                display: inline-block;
+                vertical-align: middle;
+
+                > i {
+                    font-size: @big-fontSize + 6px;
+                }
+            }
+
+            &:hover {
+                .opacity-custom( 0.8 );
+            }
+        }
+    }
+
+    .solution-scroll-pages-wrap {
+        width: 100%;
+        margin: 226px auto 0 auto;
+        position: relative;
+        height: 498px;
+        overflow: hidden;
+
+        .scroll-btn {
+            .link( #fff,0.8,none );
+            display: block;
+            height: 498px;
+            line-height: 498px;
+            text-align: center;
+            font-size: 100px;
+            width: 130px;
+            position: absolute;
+            top: 0;
+
+            &.left {
+                left: 0;
+            }
+
+            &.right {
+                right: 0;
+            }
+        }
+
+        > ul {
+            .reset-list( left,block,0,0 );
+            .clearfix();
+            width: 100%;
+
+            > li {
+                height: 498px;
+                width: 100%;
+            }
+        }
+
+        .scroll-page {
+            width: @base-mainBody-width;
+            background: url('@{sprite-url}white87.png?v=20150525');
+            height: 498px;
+            border: 10px solid #fff;
+            margin: 0 auto;
+            color: @main-topicColor;
+
+            > h1 {
+                font-size: 48px;
+                line-height: 1.2;
+                text-align: center;
+                margin: 0;
+                padding: 54px 0 44px 0;
+            }
+
+            > h2 {
+                width: 724px;
+                height: 30px;
+                margin: 0 auto;
+
+                &.c1 {
+                    background: url('@{sprite-url}scroll-page-title.png?v=20150525') transparent center top no-repeat;
+                }
+            }
+
+            > p {
+                margin: 24px auto 0 auto;
+                line-height: 1.8;
+                width: 724px;
+                height: 156px;
+                font-size: @base-fontSize;
+                text-align: justify;
+                overflow: hidden;
+            }
+
+            .note {
+                width: 478px;
+                height: 56px;
+                border: 2px solid #949496;
+                text-align: center;
+                font-size: @base-fontSize + 6px;
+                line-height: 52px;
+                margin: 22px auto 0 auto;
+            }
+        }
+    }
+
+    &.index {
+        background: url('@{sprite-url}banner_1920/solution_banner01.jpg?v=20150525') #fff center top no-repeat;
+        height: 900px;
+
+        .solution-scroll-pages-wrap {
+            display: none;
+        }
+    }
+
+    &.solution-1 {
+        background: url('@{sprite-url}banner_1920/solution_banner02.jpg?v=20150525') #fff center top no-repeat;
+        height: 900px;
+
+        .solution-base {
+            display: none;
+        }
+    }
+}
+
+.bnp-banner-wrap {
+    height: 214px;
+    overflow: hidden;
+    margin: 82px 0 0 0;
+
+    &.our-partners {
+        background: url('@{sprite-url}banner_1920/bottomNavPage_banner01.jpg?v=20150522') #fff center top no-repeat;
+    }
+
+    &.legal-statement {
+        background: url('@{sprite-url}banner_1920/bottomNavPage_banner02.jpg?v=20150522') #fff center top no-repeat;
+    }
+
+    &.privacy-clause {
+        background: url('@{sprite-url}banner_1920/bottomNavPage_banner03.jpg?v=20150522') #fff center top no-repeat;
+    }
+
+    &.recruitment-post {
+        background: url('@{sprite-url}banner_1920/bottomNavPage_banner04.jpg?v=20150522') #fff center top no-repeat;
+    }
+}
+
+
+

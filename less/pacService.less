@@ -11,14 +11,15 @@
     height: 600px;
     overflow: hidden;
     display: block;
-    margin: 82px 0 0 0;
+    margin: 82px auto 0 auto;
+    min-width: @base-mainBody-width;
 
     &.PSB {
-        background: url('@{sprite-url}PSBanner01.jpg?v=20150522') #fff center top no-repeat;
+        background: url('@{sprite-url}banner_1920/PSBanner01.jpg?v=20150522') #fff center top no-repeat;
     }
 
     &.CSB {
-        background: url('@{sprite-url}CSBanner01.jpg?v=20150522') #fff center top no-repeat;
+        background: url('@{sprite-url}banner_1920/CSBanner01.jpg?v=20150522') #fff center top no-repeat;
     }
 
     > div {
