@@ -14,14 +14,6 @@
     margin: 82px auto 0 auto;
     min-width: @base-mainBody-width;
 
-    &.PSB {
-        background: url('@{sprite-url}banner_1920/PSBanner01.jpg?v=20150522') #fff center top no-repeat;
-    }
-
-    &.CSB {
-        background: url('@{sprite-url}banner_1920/CSBanner01.jpg?v=20150522') #fff center top no-repeat;
-    }
-
     > div {
         width: @base-mainBody-width;
         margin: 0 auto;
@@ -41,6 +33,22 @@
         font-size: @base-fontSize + 2px;
         margin: 0;
         max-width: 554px;
+    }
+
+    &.PSB {
+        background: url('@{sprite-url}banner_1920/PSBanner01.jpg?v=20150522') #fff center top no-repeat;
+    }
+
+    &.CSB {
+        background: url('@{sprite-url}banner_1920/CSBanner01.jpg?v=20150522') #fff center top no-repeat;
+
+        .PSBtitle {
+            margin: 96px 0 24px 450px;
+        }
+
+        .PSBsubText {
+            margin: 0 0 0 450px;
+        }
     }
 }
 
@@ -64,6 +72,11 @@
         padding: 0 35% 0 0;
         background: url('@{sprite-url}PSdetail_Bg.jpg?v=20150522') transparent 580px bottom no-repeat;
         margin: 30px 0 0 0;
+
+        &.cs {
+            background: url('@{sprite-url}CSdetail_Bg.jpg?v=20150526') transparent left bottom no-repeat;
+            padding: 0 0 0 46%;
+        }
     }
 }
 

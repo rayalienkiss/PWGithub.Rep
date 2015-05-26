@@ -1203,7 +1203,8 @@ footer.index > .show {
 }
 .bnp-text-wrap > img {
   display: block;
-  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
 }
 /* 左右tab结构 */
 .bnp-tab-wrap {

@@ -379,6 +379,12 @@
                 &.c1 {
                     background: url('@{sprite-url}scroll-page-title.png?v=20150525') transparent center top no-repeat;
                 }
+
+                &.c2 {
+                    background: url('@{sprite-url}scroll-page-title2.png?v=20150525') transparent center top no-repeat;
+                    margin: 50px auto 0 auto;
+                    width: 844px;
+                }
             }
 
             > p {
@@ -399,6 +405,44 @@
                 font-size: @base-fontSize + 6px;
                 line-height: 52px;
                 margin: 22px auto 0 auto;
+            }
+        }
+
+        .as {
+            margin: 0 40px;
+            position: relative;
+            overflow: hidden;
+            padding: 40px 0 40px 50%;
+            height: 100%;
+
+            > img {
+                width: 378px;
+                display: block;
+                position: absolute;
+                left: 0;
+                top: 40px;
+            }
+
+            > h1 {
+                font-size: @base-fontSize + 6px;
+                line-height: 1.2;
+                color: @mainColor2;
+                margin: 0 0 14px 0;
+                font-weight: 500;
+            }
+
+            .as-text-box {
+                margin: 0 0 14px 0;
+                line-height: 1.8;
+                padding: 0 0 14px 0;
+                border-bottom: 1px dashed @base-box-border-color * 0.8;
+                font-size: @base-fontSize;
+
+                th {
+                    padding: 0 15px 0 0;
+                    white-space: nowrap;
+                    vertical-align: top;
+                }
             }
         }
     }
@@ -426,7 +470,7 @@
     }
 
     &.nav1-bg {
-        background: url('@{sprite-url}banner_1920/solution_banner02.jpg?v=20150525') #fff center top no-repeat;
+        background: url('@{sprite-url}banner_1920/bac3.jpg?v=20150525') #fff center top no-repeat;
         height: 900px;
 
         #nav1scroll {
@@ -435,7 +479,7 @@
     }
 
     &.nav2-bg {
-        background: url('@{sprite-url}banner_1920/solution_banner03.jpg?v=20150525') #fff center top no-repeat;
+        background: url('@{sprite-url}banner_1920/bac2.jpg?v=20150525') #fff center top no-repeat;
         height: 900px;
 
         #nav2scroll {
@@ -444,7 +488,7 @@
     }
 
     &.nav3-bg {
-        background: url('@{sprite-url}banner_1920/solution_banner04.jpg?v=20150525') #fff center top no-repeat;
+        background: url('@{sprite-url}banner_1920/bac4.jpg?v=20150525') #fff center top no-repeat;
         height: 900px;
 
         #nav3scroll {
@@ -453,7 +497,7 @@
     }
 
     &.nav4-bg {
-        background: url('@{sprite-url}banner_1920/solution_banner05.jpg?v=20150525') #fff center top no-repeat;
+        background: url('@{sprite-url}banner_1920/solution_banner04.jpg?v=20150525') #fff center top no-repeat;
         height: 900px;
 
         #nav4scroll {
@@ -462,7 +506,7 @@
     }
 
     &.nav5-bg {
-        background: url('@{sprite-url}banner_1920/solution_banner06.jpg?v=20150525') #fff center top no-repeat;
+        background: url('@{sprite-url}banner_1920/bac5.jpg?v=20150525') #fff center top no-repeat;
         height: 900px;
 
         #nav5scroll {
@@ -471,7 +515,7 @@
     }
 
     &.nav6-bg {
-        background: url('@{sprite-url}banner_1920/solution_banner07.jpg?v=20150525') #fff center top no-repeat;
+        background: url('@{sprite-url}banner_1920/solution_banner02.jpg?v=20150525') #fff center top no-repeat;
         height: 900px;
 
         #nav6scroll {
@@ -480,7 +524,7 @@
     }
 
     &.nav7-bg {
-        background: url('@{sprite-url}banner_1920/solution_banner08.jpg?v=20150525') #fff center top no-repeat;
+        background: url('@{sprite-url}banner_1920/solution_banner09.jpg?v=20150525') #fff center top no-repeat;
         height: 900px;
 
         #nav7scroll {
@@ -489,6 +533,42 @@
     }
 }
 
+/* 重置合作伙伴样式 */
+.partners {
+    width: 844px;
+    margin: 0 auto;
 
+    > li {
+        padding: 0 35px 10px 0;
+
+        > a {
+            .adv-link-box( none,block,@base-fontSize - 2px,0,2px,@base-box-border-color );
+            cursor: default;
+
+            > img {
+                width: 258px;
+                height: 92px;
+                .rounded( 5px );
+            }
+        }
+
+        > p {
+            text-align: center;
+            line-height: 1.2;
+            margin: 0;
+            .text-hide();
+            font-size: @base-fontSize + 4px;
+            padding: 10px 0 0 0;
+        }
+
+        &:nth-child(5n) {
+            padding: 0 35px 10px 0;
+        }
+
+        &:nth-child(3n) {
+            padding: 0 0 10px 0;
+        }
+    }
+}
 
 

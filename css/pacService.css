@@ -1133,12 +1133,6 @@ footer.index > .show {
   margin: 82px auto 0 auto;
   min-width: 1000px;
 }
-.banner-wrap.PSB {
-  background: url('../img/banner_1920/PSBanner01.jpg?v=20150522') #ffffff center top no-repeat;
-}
-.banner-wrap.CSB {
-  background: url('../img/banner_1920/CSBanner01.jpg?v=20150522') #ffffff center top no-repeat;
-}
 .banner-wrap > div {
   width: 1000px;
   margin: 0 auto;
@@ -1159,6 +1153,18 @@ footer.index > .show {
   margin: 0;
   max-width: 554px;
 }
+.banner-wrap.PSB {
+  background: url('../img/banner_1920/PSBanner01.jpg?v=20150522') #ffffff center top no-repeat;
+}
+.banner-wrap.CSB {
+  background: url('../img/banner_1920/CSBanner01.jpg?v=20150522') #ffffff center top no-repeat;
+}
+.banner-wrap.CSB .PSBtitle {
+  margin: 96px 0 24px 450px;
+}
+.banner-wrap.CSB .PSBsubText {
+  margin: 0 0 0 450px;
+}
 /* 描述区域 */
 .detail-wrap {
   display: block;
@@ -1178,6 +1184,10 @@ footer.index > .show {
   padding: 0 35% 0 0;
   background: url('../img/PSdetail_Bg.jpg?v=20150522') transparent 580px bottom no-repeat;
   margin: 30px 0 0 0;
+}
+.detail-wrap .detail-box.cs {
+  background: url('../img/CSdetail_Bg.jpg?v=20150526') transparent left bottom no-repeat;
+  padding: 0 0 0 46%;
 }
 .details {
   position: relative;
