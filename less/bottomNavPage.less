@@ -66,6 +66,10 @@
 .bnp-text-wrap {
     padding: 30px;
 
+    .map-wrap {
+        width: 100%;
+    }
+
     > p {
         margin: 0;
         line-height: 1.8;
@@ -99,6 +103,45 @@
         display: block;
         max-width: 100%;
         margin: 0 auto;
+    }
+
+    .rs-detail-head {
+        border-bottom: 1px solid @base-box-border-color;
+        padding: 0 0 20px 0;
+        margin: 0 0 20px 0;
+
+        > h5 {
+            color: #693883;
+            font-size: @base-fontSize + 10px;
+            font-weight: 500;
+            margin: 0;
+            line-height: 1.4;
+            text-align: center;
+            padding: 0 0 10px 0;
+        }
+
+        .rshead-ul {
+            text-align: center;
+            display: block;
+            .reset-list( none,inline-block,@base-fontSize - 2px,1.2 );
+
+            > li {
+                color: @sub-fontColor;
+                .text-hide();
+                padding: 0 15px;
+                border-right: 1px solid @sub-fontColor;
+                vertical-align: middle;
+
+                > b {
+                    font-weight: 500;
+                    color: @mainColor2;
+                }
+
+                &:last-child {
+                    border-right: none;
+                }
+            }
+        }
     }
 }
 
@@ -274,6 +317,55 @@
     }
 }
 
+/* 最新动态列表 */
+.rslist {
+    .reset-list( none,block,0,0 );
+
+    > li {
+        padding: 0 0 28px 0;
+        margin: 0 0 28px 0;
+        border-bottom: 1px solid @base-box-border-color;
+
+        > .rstopic {
+            .link-in-dark( #693883,none );
+            font-size: @base-fontSize + 4px;
+            position: relative;
+            padding: 0 100px 0 0;
+            display: block;
+            .text-hide();
+            line-height: 1.8;
+
+            > span {
+                color: @mainColor2;
+                border-bottom: 1px solid @mainColor2;
+                font-size: @base-fontSize;
+                position: absolute;
+                right: 0;
+                top: 6px;
+                line-height: 1.2;
+            }
+        }
+
+        > p {
+            margin: 0;
+            font-size: @base-fontSize;
+            line-height: 1.8;
+            .text-hide();
+        }
+
+        > b {
+            display: block;
+            font-weight: 500;
+            font-size: @base-fontSize - 2px;
+            line-height: 1.8;
+            color: @sub-fontColor;
+        }
+    }
+}
+
+/* 最新动态详细页 */
+
+
 /* 联系方式 */
 .contacts {
     width: 90%;
@@ -302,6 +394,8 @@
         margin: 15px 0;
     }
 }
+
+
 
 
 
