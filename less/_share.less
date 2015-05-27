@@ -100,6 +100,18 @@ nav {
                     .opacity-custom( 1 );
                 }
             }
+
+            &.disabled {
+                border-left: 1px solid @sub-fontColor * 0.6;
+                margin-left: 25px;
+
+                > a {
+                    color: @sub-fontColor;
+                    cursor: default;
+                    .opacity-custom( 0.9 );
+                }
+
+            }
         }
     }
 
