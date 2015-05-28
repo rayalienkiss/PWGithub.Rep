@@ -57,6 +57,7 @@
         > a {
             width: @spanWidth;
             height: 104px;
+            display: inline-block;
             position: absolute;
             top: 0;
             .link-in-dark( #fff,none );
@@ -341,6 +342,7 @@
         > a {
             width: @spanWidth;
             height: 104px;
+            display: inline-block;
             position: absolute;
             top: 0;
             .link-in-dark( #fff,none );
@@ -604,7 +606,7 @@
             width: 0;
             padding: 0;
 
-            .backToNav {
+            .backtpnav {
                 z-index: -1;
             }
 
@@ -1006,12 +1008,9 @@
 .partners {
     width: 844px;
     margin: 0 auto;
-    padding: 30px 0 0 0;
-    .clearfix();
 
-    > div {
+    > li {
         padding: 0 35px 10px 0;
-        float: left;
 
         > a {
             .adv-link-box( none,block,@base-fontSize - 2px,0,2px,@base-box-border-color );
@@ -1043,12 +1042,4 @@
     }
 }
 
-.solution-banner-wrap.nav1-bg .solution-base,
-.solution-banner-wrap.nav2-bg .solution-base,
-.solution-banner-wrap.nav3-bg .solution-base,
-.solution-banner-wrap.nav4-bg .solution-base,
-.solution-banner-wrap.nav5-bg .solution-base,
-.solution-banner-wrap.nav6-bg .solution-base,
-.solution-banner-wrap.nav7-bg .solution-base {
-    display: block;
-}
+
