@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta http-equiv="Cache-Control" content="no-siteapp"/>
+        <meta name="renderer" content="webkit">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+        <meta name="copyright" content="本页版权归www.paywe.cn所有·All Rights Reserved">
+        <meta name="author" content="www.frontpay.cn"/>
+        <meta name="description" content="个人消费·企业支付·金融·解决方案"/>
+        <meta name="Robots"content="all"/>
+        
+        <title>钱沿支付·私隐条款</title>
+
+        <!-- 页面样式 -->
+        <link rel="stylesheet" href="css/bottomNavPage.min.css">
+
+        <!-- 字体图标兼容 IE 76 样式 -->   
+        <!--[if lte IE 7]>
+            <link rel="stylesheet" href="css/fonticon-ie-76.min.css">
+        <![endif]-->
+    
+        <!--[if lt IE 9]>
+		    <link rel="stylesheet" type="text/css" href="css/ie-876.min.css">
+        <![endif]-->
+        
+        <!-- 字体图标 IE 7 以下JS兼容 -->
+        <!--[if lte IE 7]>
+		    <script type="text/javascript" src="js/fonticon-ie-76.min.js"></script>
+        <![endif]-->
+
+        <!-- html5 Dom 替换方案 以支持IE7 -->
+        <!--[if lte IE 9]>
+		    <script type="text/javascript" src="js/html5.js"></script>
+        <![endif]-->
+        <!--[if IE 9]>
+		    <script type="text/javascript" src="js/respond.min.js"></script>
+        <![endif]-->
+    
+        <style>
+        </style>
+            
+    </head>
+
+    <body>
+
+        <!-- 主导航 -->
+        <nav>
+            <div>
+                <a href="index.html" class="logo">
+                    <img src="img/nav-logo.png?v=20150521a" alt="钱沿支付" title="返回首页"/>
+                </a>
+                <ul class="nav">
+                    <li>
+                        <a href="index.html">
+                            首页
+                        </a>
+                    </li>
+                    <li>
+                        <a href="personService.html">
+                            个人服务
+                        </a>
+                    </li>
+                    <li>
+                        <a href="companyService.html">
+                            企业服务
+                        </a>
+                    </li>
+                    <li>
+                        <a href="solution.html">
+                            行业方案
+                        </a>
+                    </li>
+                    <li>
+                        <a href="###">
+                            关于任信
+                        </a>
+                    </li>
+                    <li class="disabled">
+                        <a href="###">
+                            商家服务
+                        </a>
+                    </li>
+                </ul>
+                <div class="sign-box">
+                    <ul class="p1">
+                        <li>
+                            <a href="###" style="cursor: default;">
+                                <i class="icon-tel01"></i>&nbsp;
+                                400-106-6698
+                            </a>
+                        </li>
+                        <li>
+                            <a href="###" target="_blank">
+                                客户服务
+                            </a>
+                        </li>
+                        <li class="last">
+                            <a href="###" target="_blank">
+                                APP下载
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="p2">
+                        <li>
+                            <a href="popSignUpIn.html">
+                                注册
+                            </a>
+                        </li>
+                        <li>
+                            <span>|</span>
+                        </li>
+                        <li>
+                            <a href="popSignUpIn.html">
+                                登陆
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="nav-bg"></div>
+
+        <!-- banner区域 -->
+        <div class="bnp-banner-wrap privacy-clause"></div>
+
+        <!-- 私隐条款 -->
+        <section class="bnp-content-wrap">
+            <div class="bnp-topic-wrap">
+                <h1>
+                    私隐条款&nbsp;&nbsp;<span>Privacy Clause</span>
+                </h1>
+            </div>
+            <div class="bnp-text-wrap">
+                <p>
+                    在您注册成为钱沿支付用户、同意接受钱沿支付服务时，请仔细阅读并了解本隐私权条款全部内容，其构成钱沿支付与用户协议不可分割的一部分。您通 过完成注册程序并点击“完成注册”的按钮，表示您明确知晓本隐私条款所列内容，并自愿与广东钱途互联商务服务有限公司达成协议并接受其在钱沿支付网站所明示 的所有服务条款。
+                </p>
+                <p>
+                    1. 用户信息收集和使用目的<br />
+                    我们收集、使用您的信息是出于遵守国家法律法规的规定以及向您提供服务及提升服务质量的目的（包括支持我们开发新产品或完善已有产品功能，为您和其他用户 提供更为优质的服务）。若您向我们提供了本规则中列明的信息，您可使用更多的钱沿支付服务，和（或）享受更便捷的客户服务，和（或）让我们更好地保护您的账 户及资金安全，和（或）避免我们无法及时与您取得联系而产生对您不利的影响等。
+                </p>
+                <p>
+                    2. 适用范围<br />
+                    1）为了遵守法律法规的要求，以及向您提供更个性化、更便捷的服务，我们需要识别您的身份。在您注册钱沿支付账户或使用钱沿支付提供的各项服务时，您可能要向我们提供一些个人信息，例如您的姓名、身份证明、地址、电话号码和电子邮件地址、生物特征等信息及相关附加信息（如您所在的省份和城市、邮政编码等）。<br />
+                    2）如您使用的钱沿支付服务需与您的银行账户或其他支付工具的账户关联方能实现时，您需要向我们提供您的银行账户信息或其他支付工具的账户信息。例如，您将您的银行卡与钱沿支付账户绑定时，您需向我们提供您的银行卡信息。<br />                    3）为便于您查询您的交易状态或历史记录，也为了遵守法律法规的规定，我们会保存您使用钱沿支付服务产生的交易信息，并严格按照法律法规的规定对这些信息进行妥善保管。<br />
+                    4）为了充分保护您的账户安全，当您访问钱沿支付网站及其相关网站、或钱端移动设备客户端时，或使用钱沿支付提供的服务时，我们可能会记录您操作的相关信息，包括但不限于您的计算机IP地址、设备标识符、硬件型号、操作系统版本、您的位置以及与钱沿支付服务相关的日志信息，这些信息可帮助我们更好地识别您的身份以及保护您的账户安全，例如您的账户在可疑操作环境下登录的，钱沿支付系统可能监控到您的账户风险，采取一些措施避免您的资金损失。<br />
+                </p>
+                <p>
+                    除上述信息外，我们还可能为了提供服务及改进服务质量的合理需要而收集您的其他信息，包括您与我们的客户服务团队联系时您提供的相关信息
+                </p>
+            </div>
+        </section>
+
+        <!-- footer -->
+        <footer class="index">
+            <div class="show">
+                <i class="icon-chevron-thin-up"></i>
+            </div>
+            <div>
+                <div class="part-left">
+                    <ul class="footer-nav">
+                        <li>
+                            <a href="aboutUs.html">
+                                关于平台
+                            </a>
+                        </li>
+                        <li>
+                            <a href="recruitmentPost.html">
+                                诚聘精英
+                            </a>
+                        </li>
+                        <li>
+                            <a href="###">
+                                商务合作
+                            </a>
+                        </li>
+                        <li>
+                            <a href="ourPartners.html">
+                                合作伙伴
+                            </a>
+                        </li>
+                        <li>
+                            <a href="legalStatement.html">
+                                法律声明
+                            </a>
+                        </li>
+                        <li class="last">
+                            <a href="privacyClause.html">
+                                隐私条款
+                            </a>
+                        </li>
+                    </ul>  
+                    <p>
+                        版权所有&copy;广东钱途互联商务服务有限公司&nbsp;&nbsp;&nbsp;&nbsp;粤ICP备&nbsp;14098252号
+                    </p>  
+                </div>
+                <div class="part-right">
+                    <div class="cstel-box">
+                        <p>
+                            客服热线：
+                        </p>
+                        <h3>
+                            400-106-6698
+                        </h3>
+                    </div>
+                    <div class="code-box">
+                        <img src="img/footerQRCode.jpg?v=20150521a" alt="钱沿支付微信二维码" title="钱沿支付微信二维码"/>
+                        <p>
+                            关注微信
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/framwork.js"></script>
+        <script>
+        </script>
+
+    </body>
+
+</html>

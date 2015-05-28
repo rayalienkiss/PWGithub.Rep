@@ -1,0 +1,39 @@
+/*
+--- ie-876 ---
+*/
+
+@charset "UTF-8";
+
+/* 主导航 */
+nav .sign-box > .p1 > li.last {
+  padding: 0;
+  border-right: none;
+}
+
+/* 页脚 */
+footer .footer-nav > li.last {
+  padding: 0;
+  margin: 0;
+  border-right: none;
+}
+
+/* 个人企业服务页 描述区域 */
+.details > b {
+  background: url('../img/sprite.png') transparent no-repeat;
+  background-position: -142px 0;
+}
+
+/* 合作伙伴 */
+.partners > li.last {
+  padding: 0 0 10px 0;
+}
+
+/* 页底导航页面 标题副文本 */
+.bnp-topic-wrap > h1 > span {
+  color: #bfbfbf;
+}
+
+/* 页底导航页面 最新动态详细页面 页头ul */
+.bnp-text-wrap .rs-detail-head .rshead-ul > li.last {
+  border-right: none;
+}
