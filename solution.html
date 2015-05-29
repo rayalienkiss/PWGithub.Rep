@@ -46,6 +46,153 @@
 
     <body>
 
+        <!-- 登陆注册弹窗 -->
+        <div class="popwin-bg">
+            <div>
+                <b></b>
+                <div class="popwin-wrap sign-wrap">
+
+                    <!-- 关闭弹窗 -->
+                    <a href="###" class="popwin-close" id="signClose">
+                        <i class="icon-cross"></i>
+                    </a>
+
+                    <!-- 弹窗tab -->
+                    <ul class="sign-tab-wrap">
+                        <li class="active">
+                            <a href="#stc1" data-toggle="tab">
+                                个人用户
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#stc2" data-toggle="tab">
+                                商家用户
+                            </a>
+                        </li>
+                    </ul>
+
+                    <!-- #stc1内容 -->
+                    <div class="tab-pane active" id="stc1">
+
+                        <!-- 个人注册页面 -->
+                        <div class="forms" id="pSignUp">
+                            <p>
+                                已有钱沿支付账号？
+                            </p>
+                            <a href="###" class="default-btn secondary" id="Show_pSignIn">
+                                马上登陆
+                            </a>
+                            <div class="sign-left">
+                                <h1>
+                                    注册钱沿支付
+                                </h1>
+                                <form>
+                                    <fieldset>
+                                        <legend>signup form</legend>
+                                        <div class="form-ctrl-wrap signfrom">
+                                            <div class="form-ctrl-box">
+                                                <div class="fv-wrap" style="display: block;">
+                                                    手机号已注册！
+                                                    <span class="shadow"></span>
+                                                    <span></span>
+                                                </div>
+                                                <input class="form-ctrl" type="text" placeholder="请输入手机号码" name="phoneNumber"/>
+                                            </div>
+                                        </div>
+                                        <div class="form-ctrl-wrap signfrom for-ic">
+                                            <div class="form-ctrl-box">
+                                                <div class="fv-wrap" style="display: block;">
+                                                    验证码错误！
+                                                    <span class="shadow"></span>
+                                                    <span></span>
+                                                </div>
+                                                <input class="form-ctrl" type="text" placeholder="请输入验证码" name="vc"/>
+                                            </div>
+                                            <a href="###" class="default-btn tertiary">
+                                                获取验证码
+                                            </a>
+                                        </div> 
+                                        <div class="form-ctrl-wrap" style="padding-bottom: 12px;">
+                                            <label class="form-label">
+                                                <input type="checkbox" checked="checked" name="agreement"/>
+                                                我已阅读并同意《<a href="###" target="_blank" class="label-link">任信支付服务协议</a>》
+                                            </label>
+                                        </div>
+                                        <div class="form-ctrl-wrap">
+                                            <div class="form-ctrl-box">
+                                                <button type="submit" class="default-btn primary">
+                                                    立即开通
+                                                </button>
+                                            </div>
+                                        </div>                                  
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>   
+
+                        <!-- 个人登陆页面 -->
+                        <div class="forms" id="pSignIn" style="display: none;">
+                            <p>
+                                还没有钱沿支付账号？
+                            </p>
+                            <a href="###" class="default-btn secondary" id="Show_pSignUp">
+                                马上注册
+                            </a>
+                            <div class="sign-left">
+                                <h1>
+                                    登陆钱沿支付
+                                </h1>
+                                <form>
+                                    <fieldset>
+                                        <legend>signin form</legend>
+                                        <div class="form-ctrl-wrap signfrom">
+                                            <div class="form-ctrl-box">
+                                                <div class="fv-wrap" style="display: block;">
+                                                    手机号错误！
+                                                    <span class="shadow"></span>
+                                                    <span></span>
+                                                </div>
+                                                <input class="form-ctrl" type="text" placeholder="手机号码" name="phoneNumber"/>
+                                            </div>
+                                        </div>
+                                        <div class="form-ctrl-wrap signfrom" style="padding-bottom: 42px;">
+                                            <div class="form-ctrl-box">
+                                                <div class="fv-wrap" style="display: block;">
+                                                    密码错误！
+                                                    <span class="shadow"></span>
+                                                    <span></span>
+                                                </div>
+                                                <input class="form-ctrl" type="password" placeholder="登陆密码" name="password"/>
+                                            </div>
+                                        </div> 
+                                        <div class="form-ctrl-wrap">
+                                            <div class="form-ctrl-box">
+                                                <button type="submit" class="default-btn primary">
+                                                    立即登陆
+                                                </button>
+                                                <a href="###" class="default-btn link-btn">
+                                                    忘记密码？
+                                                </a>
+                                            </div>
+                                        </div>                                  
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>      
+                                        
+                    </div>
+
+                    <!-- #stc2内容 -->
+                    <div class="tab-pane" id="stc2">
+                        <b>
+                            暂未开放商家登陆&nbsp;&nbsp;/&nbsp;&nbsp;注册
+                        </b>
+                    </div>
+
+                </div>
+            </div>   
+        </div>
+
         <!-- 主导航 -->
         <nav>
             <div>
@@ -53,7 +200,7 @@
                     <img src="img/nav-logo.png?v=20150521a" alt="钱沿支付" title="返回首页"/>
                 </a>
                 <ul class="nav">
-                    <li>
+                    <li class="active">
                         <a href="index.html">
                             首页
                         </a>
@@ -68,7 +215,7 @@
                             企业服务
                         </a>
                     </li>
-                    <li class="active">
+                    <li>
                         <a href="solution.html">
                             行业方案
                         </a>
@@ -105,16 +252,8 @@
                     </ul>
                     <ul class="p2">
                         <li>
-                            <a href="popSignUpIn.html">
-                                注册
-                            </a>
-                        </li>
-                        <li>
-                            <span>|</span>
-                        </li>
-                        <li>
-                            <a href="popSignUpIn.html">
-                                登陆
+                            <a href="###" id="signOpen">
+                                登陆&nbsp;&nbsp;/&nbsp;&nbsp;注册
                             </a>
                         </li>
                     </ul>
@@ -130,7 +269,7 @@
             <div class="solution-scroll-pages-wrap animated fadeInDown" id="nav1scroll">
 
                 <!-- 滚动结构 -->
-                <ul>
+                <ul data-index="0">
                     <li>
                         <div class="scroll-page">
                             <h1>
@@ -138,7 +277,8 @@
                             </h1>
                             <h2 class="c1"></h2>
                             <p>
-                                适用于安全的P2P平台，投资者在投资后已经拥有了债权。<br />                                钱沿支付为这些平台提供信用惠商城，信用惠商城是支持“任信支付”的各类电商的导航入口，也是这些电商的特色优惠商品陈列。<br />
+                                适用于安全的P2P平台，投资者在投资后已经拥有了债权。<br />
+                                钱沿支付为这些平台提供信用惠商城，信用惠商城是支持“任信支付”的各类电商的导航入口，也是这些电商的特色优惠商品陈列。<br />
                                 投资者通过信用惠商城，进入到各类电商消费，使用“任信支付”消费，可实现债权转移支付，从而提前实现流动性。
                             </p>
                             <div class="note">
@@ -219,7 +359,7 @@
             <div class="solution-scroll-pages-wrap animated fadeInDown" id="nav2scroll">
 
                 <!-- 滚动结构 -->
-                <ul>
+                <ul data-index="0">
                     <li>
                         <div class="scroll-page">
                             <h1>
@@ -326,7 +466,7 @@
             <div class="solution-scroll-pages-wrap animated fadeInDown" id="nav3scroll">
 
                 <!-- 滚动结构 -->
-                <ul>
+                <ul data-index="0">
                     <li>
                         <div class="scroll-page">
                             <h1>
@@ -334,7 +474,8 @@
                             </h1>
                             <h2 class="c1"></h2>
                             <p>
-                                平台具备某种担保约束机制，冻结买卖双方交易过程中的资金，在买卖双方交易完成交割时再释放资金。<br />                                钱沿支付为电商平台提供完整支付插件，对上述资金进行托管与增值，并根据平台指令，进行清算。
+                                平台具备某种担保约束机制，冻结买卖双方交易过程中的资金，在买卖双方交易完成交割时再释放资金。<br />
+                                钱沿支付为电商平台提供完整支付插件，对上述资金进行托管与增值，并根据平台指令，进行清算。
                             </p>
                             <div class="note">
                                 适用于买卖双方进行商品贸易的电商平台
@@ -402,7 +543,7 @@
             <div class="solution-scroll-pages-wrap animated fadeInDown" id="nav4scroll">
 
                 <!-- 滚动结构 -->
-                <ul>
+                <ul data-index="0">
                     <li>
                         <div class="scroll-page">
                             <h1>
@@ -470,7 +611,7 @@
             <div class="solution-scroll-pages-wrap animated fadeInDown" id="nav5scroll">               
 
                 <!-- 滚动结构 -->
-                <ul>
+                <ul data-index="0">
                     <li>
                         <div class="scroll-page">
                             <h1>
@@ -478,7 +619,9 @@
                             </h1>
                             <h2 class="c1"></h2>
                             <p>
-                                企业与消费者已达成了某种有条件自动支付方案，在触发条件达到时，企业有权对消费者的资金进行划扣。<br />                                如水电煤的缴费划扣，如电信话费的划扣，如粤通卡ETC的划扣，如羊城通地铁收费的划扣….支付场景无处不在。<br />                                钱沿支付为这类场景提供支付接口或支付插件，对消费者的资金进行增值，并支持根据企业的指令进行划扣转移。
+                                企业与消费者已达成了某种有条件自动支付方案，在触发条件达到时，企业有权对消费者的资金进行划扣。<br />
+                                如水电煤的缴费划扣，如电信话费的划扣，如粤通卡ETC的划扣，如羊城通地铁收费的划扣….支付场景无处不在。<br />
+                                钱沿支付为这类场景提供支付接口或支付插件，对消费者的资金进行增值，并支持根据企业的指令进行划扣转移。
                             </p>
                             <div class="note">
                                 适用于已与消费者达成某种有条件自动支付方案企业
@@ -564,7 +707,7 @@
             <div class="solution-scroll-pages-wrap animated fadeInDown" id="nav6scroll">
 
                 <!-- 滚动结构 -->
-                <ul>
+                <ul data-index="0">
                     <li>
                         <div class="scroll-page">
                             <h1>
@@ -572,7 +715,8 @@
                             </h1>
                             <h2 class="c1"></h2>
                             <p>
-                                此类商户希望客户能预付会员费，并能实时使用预付资金进行消费，存在吸引客户预付并达到有效转化的需求。钱沿支付可为此类电商平台提供支付终端机，帮助商户快速留存和转化客户。
+                                此类商户希望客户能预付会员费，并能实时使用预付资金进行消费，存在吸引客户预付并达到有效转化的需求。钱沿支付可为此类电商平台提供支付终端机，帮助商户快速留存和转化客户。
+
                             </p>
                             <div class="note">
                                 适用于实体店店铺铺商户
@@ -632,7 +776,7 @@
             <div class="solution-scroll-pages-wrap animated fadeInDown" id="nav7scroll">
 
                 <!-- 滚动结构 -->
-                <ul>
+                <ul data-index="0">
                     <li>
                         <div class="scroll-page">
                             <h1>
@@ -640,7 +784,8 @@
                             </h1>
                             <h2 class="c1"></h2>
                             <p>
-                                传统网银已经无法灵活适应集团供应链的支付清算要求。钱沿支付支持多家银行，一点接入验证后，创新通过债权转移实现跨行跨地域的支付结算，同时实现在途资金的增值。<br />                                钱沿支付亦能灵活根据核心企业的业务需求，对收付、结算、统计进行个性化统计，并实现与其ERP系统无缝对接.
+                                传统网银已经无法灵活适应集团供应链的支付清算要求。钱沿支付支持多家银行，一点接入验证后，创新通过债权转移实现跨行跨地域的支付结算，同时实现在途资金的增值。<br />
+                                钱沿支付亦能灵活根据核心企业的业务需求，对收付、结算、统计进行个性化统计，并实现与其ERP系统无缝对接.
                             </p>
                             <div class="note">
                                 适用于集团供应链多对一跨地域、跨行支付
@@ -727,7 +872,8 @@
             <div class="solution-base">
                 <img src="img/solution_title_1.png" class="solution-title animated bounceInLeft"/>
                 <p class="solution-Text animated bounceInRight">
-                    钱沿支付通过开放接口和平台，根据实际场景需求，为不同行业的客户<br />                    提供整体支付解决方案。在&nbsp;&nbsp;“互联网+”&nbsp;&nbsp;时代，我们助力企业对整体产<br />
+                    钱沿支付通过开放接口和平台，根据实际场景需求，为不同行业的客户<br />
+                    提供整体支付解决方案。在&nbsp;&nbsp;“互联网+”&nbsp;&nbsp;时代，我们助力企业对整体产<br />
                     业链升级。
                 </p>
             </div>
