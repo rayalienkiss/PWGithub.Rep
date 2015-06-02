@@ -13,10 +13,10 @@
         <meta name="description" content="钱沿支付,是由广东钱途互联商务服务有限公司顺应互联网的发展,以实现支付场景的丰富性,突破解决网银和第三方支付的支付局限性为出发点,创新打造的全新债权支付工具.致力于为广大用户提供安全快速的电子支付/网上支付/安全支付体验,及充值/转账/提现/付款/收款等服务应用."/>
         <meta name="Robots"content="all"/>
         
-        <title>个人服务 – 钱沿支付</title>
+        <title>关于钱沿 – 钱沿支付</title>
 
         <!-- 页面样式 -->
-        <link rel="stylesheet" href="ow_depend/css/pacService.min.css">
+        <link rel="stylesheet" href="ow_depend/css/bottomNavPage.min.css">
 
         <!-- 字体图标兼容 IE 76 样式 -->   
         <!--[if lte IE 7]>
@@ -206,7 +206,7 @@
                             首页
                         </a>
                     </li>
-                    <li class="active">
+                    <li>
                         <a href="personService.html">
                             个人服务
                         </a>
@@ -221,7 +221,7 @@
                             行业方案
                         </a>
                     </li>
-                    <li>
+                    <li class="active">
                         <a href="aboutUs.html">
                             关于钱沿
                         </a>
@@ -264,117 +264,81 @@
         <div class="nav-bg"></div>
 
         <!-- banner区域 -->
-        <section class="banner-wrap PSB">
-            <div>
-                <img src="ow_depend/img/PSBtitle.png?v=20150522" alt="" class="PSBtitle"/>
-                <p class="PSBsubText">
-                    支付是消费者与商户之间的资金纽带。在互联网+时代，钱沿支付可以做到更多。
-                    <br /><br />
-                    首先个人可通过网页网银、APP扫码、POS机等多种方式，实现面向商户的支付。其次，在钱沿支付创建的独特的支付场景下，支付成为了商户面向客户的服务延伸工具，个人可享受更方便快捷的支付体验，可以获得各类商户优惠特权，可享受投资收益，或者在不影响收益的前提下，实现信用透支支付等
-                    <br /><br />
-                    2015，钱沿推出更多个人面向商户的专业支付解决方案，敬请关注。
-                </p>
-            </div>
-        </section>
+        <div class="bnp-banner-wrap about-us"></div>
 
-        <!-- 描述区域 -->
-        <section class="detail-wrap">
-            <h1>
-                钱沿个人支付五大优势
-            </h1>
-            <div class="detail-box">
-                <div class="details">
-                    <h1>
-                        创新支付，无卡无密无限额
-                    </h1>
-                    <p>
-                        支持多家银行，体验轻松便捷
-                    </p>
-                    <b>1</b>
-                </div>
-                <div class="details">
-                    <h1>
-                        增值设定，给您更多
-                    </h1>
-                    <p>
-                        充值即享财富增值，收益远超货币基金
-                    </p>
-                    <b>2</b>
-                </div>
-                <div class="details">
-                    <h1>
-                        安全免费，全程无忧
-                    </h1>
-                    <p>
-                        跨行零手续费，银行级安全保障
-                    </p>
-                    <b>3</b>
-                </div>
-                <div class="details">
-                    <h1>
-                        应用丰富，尊享特权
-                    </h1>
-                    <p>
-                        优质商户诚意接入，涵盖衣食住行，享更多消费特权
-                    </p>
-                    <b>4</b>
-                </div>
-            </div>
-        </section>
+        <!-- 关于我们 -->
+        <section class="bnp-content-wrap">
+            <div class="bnp-tab-wrap aboutus">
 
-        <!-- 合作伙伴 -->
-        <section class="partner-wrap">
-            <div>
-                <h1>
-                    成功案例
-                </h1>
-                <ul class="partners">
-                    <li>
-                        <a href="###">
-                            <img src="ow_depend/img/partners/1905.jpg?v=20150601" alt="1905电影网" title="1905电影网"/>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="###">
-                            <img src="ow_depend/img/partners/zouxiu.jpg?v=20150601" alt="走秀网" title="走秀网"/>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="###">
-                            <img src="ow_depend/img/partners/luxji.jpg?v=20150601" alt="奢集" title="奢集"/>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="###">
-                            <img src="ow_depend/img/partners/tianshihui.jpg?v=20150601" alt="天时汇" title="天时汇"/>
-                        </a>
-                    </li>
-                    <li class="last">
-                        <a href="###">
-                            <img src="ow_depend/img/partners/vianmall.jpg?v=20150601" alt="微尚城" title="微尚城"/>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="###">
-                            <img src="ow_depend/img/partners/quwan.jpg?v=20150601" alt="趣玩网" title="趣玩网"/>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="###">
-                            <img src="ow_depend/img/partners/qulv.jpg?v=20150601" alt="趣旅" title="趣旅"/>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="###">
-                            <img src="ow_depend/img/partners/mei.jpg?v=20150601" alt="魅力惠" title="魅力惠"/>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="###">
-                            <img src="ow_depend/img/partners/wulv.jpg?v=20150601" alt="武绿有机商城" title="武绿有机商城"/>
-                        </a>
-                    </li>
-                </ul>
+                 <!-- 左 -->
+                <div class="wrap-left">
+                    <ul class="bnp-tabs">
+                        <li class="active">
+                            <a href="aboutUs.html">
+                                <i class="icon-pencil"></i>关于钱沿
+                            </a>                          
+                        </li>
+                        <li>
+                            <a href="recentSituation.html">
+                                <i class="icon-hyperlink"></i>最新动态
+                            </a>
+                        </li>
+                        <li>
+                            <a href="###" class="disabled">
+                                <i class="icon-volume"></i>媒体报道
+                            </a>
+                        </li>
+                        <li>
+                            <a href="contactUs.html">
+                                <i class="icon-alarm"></i>联系我们
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="tel-case">
+                        <div class="ta">
+                            <h1>
+                                服务热线
+                            </h1>
+                            <h2>
+                                400-106-6698
+                            </h2>
+                        </div>
+                        <!--<img src="ow_depend/img/footerQRCode.jpg?v=20150527"/>
+                        <span>
+                            微信二维码
+                        </span>-->
+                        <img src="ow_depend/img/crrd.png?v=20150601"/>
+                        <span>
+                            APP下载
+                        </span>
+                    </div>
+                </div>
+
+                 <!-- 右 -->
+                <div class="wrap-right">
+                    <div class="bnp-text-wrap tab-pane active" id="tc1">
+                        <h2>
+                            关于钱沿
+                        </h2>
+                        <p>
+                            钱沿支付，是由广东钱途互联商务服务有限公司顺应互联网的发展，以实现支付场景的丰富性、突破解决网银和第三方支付的支付局限性为出发点，创新打造的全新支付工具。
+                        </p>
+                        <p>
+                            广东钱途互联商务服务有限公司总部位于广州天河区高盛大厦、深圳分公司位于深圳市福田区深南大道富春东方大厦7层，目前共有6个部门，员工近百人。钱途互联致力于打造创新型支付解决方案，构建支付新生态。自建立伊始，钱途互联始终以“拓展支付场景丰富性、打破网银和第三方支付的局限性，提供更丰富的应用场景”为业务核心，致力于通过支付场景的创新、构造，让客户在便捷支付的基础上，实现资金增值和拥有特权的消费应用。
+                        </p>
+                        <p>
+                            目前，钱途互联已形成并成功运营含投融资平台、垂直电商、预付费电商、供应链集团等涵盖各行业的多种成熟的支付解决方案。
+                        </p>
+                        <p>
+                            钱途互联期待联手有实力的、拥有广泛目标客户的线上线下合作伙伴，通过支付合作，共同参与支付应用场景的打造，实现共赢。
+                        </p>
+                        <p>
+                            享增值，惠支付，钱途互联会不断在创新支付领域深耕、努力，与各领域伙伴一起，开创美好未来。
+                        </p>
+                        <img src="ow_depend/img/aboutUs_detail.jpg?v=20150525"/>
+                    </div>
+                </div>
+
             </div>
         </section>
 
