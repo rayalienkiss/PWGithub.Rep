@@ -1,0 +1,1238 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta http-equiv="Cache-Control" content="no-siteapp"/>
+        <meta name="renderer" content="webkit">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0"/>
+        <meta name="copyright" content="本页版权归www.frontpay.cn所有·All Rights Reserved">
+        <meta name="author" content="www.frontpay.cn"/>
+        <meta name="keyword" content="钱沿支付,E+账户,债权支付,债权转让,充值投资,交易担保,0交易手续费,投资平台信用支付解决方案，电商预付费支付解决方案，垂直电商平台支付解决方案，交易平台担保支付解决方案，企业自动划扣支付解决方案，线下商户会员预付费解决方案，集团供应链支付结算解决方案,钱途互联"/>
+        <meta name="description" content="钱沿支付,是由广东钱途互联商务服务有限公司顺应互联网的发展,以实现支付场景的丰富性,突破解决网银和第三方支付的支付局限性为出发点,创新打造的全新债权支付工具.致力于为广大用户提供安全快速的电子支付/网上支付/安全支付体验,及充值/转账/提现/付款/收款等服务应用."/>
+        <meta name="Robots"content="all"/>
+        
+        <title>行业方案 – 钱沿支付</title>
+
+        <!-- 页面样式 -->
+        <link rel="stylesheet" href="ow_depend/css/solution.min.css">
+
+        <!-- 字体图标兼容 IE 76 样式 -->   
+        <!--[if lte IE 7]>
+            <link rel="stylesheet" href="ow_depend/css/fonticon-ie-76.min.css">
+        <![endif]-->
+    
+        <!--[if lt IE 9]>
+		    <link rel="stylesheet" type="text/css" href="ow_depend/css/ie-876.min.css">
+        <![endif]-->
+        
+        <!-- 字体图标 IE 7 以下JS兼容 -->
+        <!--[if lte IE 7]>
+		    <script type="text/javascript" src="ow_depend/js/fonticon-ie-76.min.js"></script>
+        <![endif]-->
+
+        <!-- html5 Dom 替换方案 以支持IE7 -->
+        <!--[if lte IE 9]>
+		    <script type="text/javascript" src="ow_depend/js/html5.js"></script>
+        <![endif]-->
+        <!--[if IE 9]>
+		    <script type="text/javascript" src="ow_depend/js/respond.min.js"></script>
+        <![endif]-->
+    
+        <style>
+        </style>
+            
+    </head>
+
+    <body>
+
+        <!-- 登录注册弹窗 -->
+        <div class="popwin-bg">
+            <div>
+                <b></b>
+                <div class="popwin-wrap sign-wrap">
+
+                    <!-- 关闭弹窗 -->
+                    <a href="###" class="popwin-close" id="signClose">
+                        <i class="icon-cross"></i>
+                    </a>
+
+                    <!-- 弹窗tab -->
+                    <ul class="sign-tab-wrap">
+                        <li class="active">
+                            <a href="#stc1" data-toggle="tab">
+                                个人用户
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#stc2" data-toggle="tab">
+                                商家用户
+                            </a>
+                        </li>
+                    </ul>
+
+                    <!-- #stc1内容 -->
+                    <div class="tab-pane active" id="stc1">
+
+                        <!-- 个人注册页面 -->
+                        <div class="forms" id="pSignUp">
+                            <p>
+                                已有钱沿支付账号？
+                            </p>
+                            <a href="###" class="default-btn secondary" id="Show_pSignIn">
+                                马上登录
+                            </a>
+                            <div class="sign-left">
+                                <h1>
+                                    注册钱沿支付
+                                </h1>
+                                <form>
+                                    <fieldset>
+                                        <legend>signup form</legend>
+                                        <div class="form-ctrl-wrap signfrom">
+                                            <div class="form-ctrl-box">
+                                                <div class="fv-wrap" style="display: block;">
+                                                    手机号已注册！
+                                                    <span class="shadow"></span>
+                                                    <span></span>
+                                                </div>
+                                                <input class="form-ctrl" type="text" placeholder="请输入手机号码" name="phoneNumber"/>
+                                            </div>
+                                        </div>
+                                        <div class="form-ctrl-wrap signfrom for-ic">
+                                            <div class="form-ctrl-box">
+                                                <div class="fv-wrap" style="display: block;">
+                                                    验证码错误！
+                                                    <span class="shadow"></span>
+                                                    <span></span>
+                                                </div>
+                                                <input class="form-ctrl" type="text" placeholder="请输入验证码" name="vc"/>
+                                            </div>
+                                            <a href="###" class="default-btn tertiary">
+                                                获取验证码
+                                            </a>
+                                        </div> 
+                                        <div class="form-ctrl-wrap" style="padding-bottom: 12px;">
+                                            <label class="form-label">
+                                                <input type="checkbox" checked="checked" name="agreement"/>
+                                                我已阅读并同意《<a href="userServiceAgreement.html" target="_blank" class="label-link">钱沿支付服务协议</a>》
+                                            </label>
+                                        </div>
+                                        <div class="form-ctrl-wrap">
+                                            <div class="form-ctrl-box">
+                                                <button type="submit" class="default-btn primary">
+                                                    立即开通
+                                                </button>
+                                            </div>
+                                        </div>                                  
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>   
+
+                        <!-- 个人登录页面 -->
+                        <div class="forms" id="pSignIn" style="display: none;">
+                            <p>
+                                还没有钱沿支付账号？
+                            </p>
+                            <a href="###" class="default-btn secondary" id="Show_pSignUp">
+                                马上注册
+                            </a>
+                            <div class="sign-left">
+                                <h1>
+                                    登录钱沿支付
+                                </h1>
+                                <form>
+                                    <fieldset>
+                                        <legend>signin form</legend>
+                                        <div class="form-ctrl-wrap signfrom">
+                                            <div class="form-ctrl-box">
+                                                <div class="fv-wrap" style="display: block;">
+                                                    手机号错误！
+                                                    <span class="shadow"></span>
+                                                    <span></span>
+                                                </div>
+                                                <input class="form-ctrl" type="text" placeholder="手机号码" name="phoneNumber"/>
+                                            </div>
+                                        </div>
+                                        <div class="form-ctrl-wrap signfrom" style="padding-bottom: 42px;">
+                                            <div class="form-ctrl-box">
+                                                <div class="fv-wrap" style="display: block;">
+                                                    密码错误！
+                                                    <span class="shadow"></span>
+                                                    <span></span>
+                                                </div>
+                                                <input class="form-ctrl" type="password" placeholder="登录密码" name="password"/>
+                                            </div>
+                                        </div> 
+                                        <div class="form-ctrl-wrap">
+                                            <div class="form-ctrl-box">
+                                                <button type="submit" class="default-btn primary">
+                                                    立即登录
+                                                </button>
+                                                <a href="###" class="default-btn link-btn">
+                                                    忘记密码？
+                                                </a>
+                                            </div>
+                                        </div>                                  
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>      
+                                        
+                    </div>
+
+                    <!-- #stc2内容 -->
+                    <div class="tab-pane" id="stc2">
+                        <b>
+                            暂未开放商家登录&nbsp;&nbsp;/&nbsp;&nbsp;注册
+                        </b>
+                    </div>
+
+                </div>
+            </div>   
+        </div>
+
+        <!-- 主导航 -->
+        <nav>
+            <div>
+                <a href="index.html" class="logo">
+                    <img src="ow_depend/img/nav-logo.png?v=20150521a" alt="钱沿支付" title="返回首页"/>
+                </a>
+                <ul class="nav">
+                    <li>
+                        <a href="index.html">
+                            首页
+                        </a>
+                    </li>
+                    <li>
+                        <a href="personService.html">
+                            个人服务
+                        </a>
+                    </li>
+                    <li>
+                        <a href="companyService.html">
+                            企业服务
+                        </a>
+                    </li>
+                    <li class="active">
+                        <a href="solution.html">
+                            行业方案
+                        </a>
+                    </li>
+                    <li>
+                        <a href="aboutUs.html">
+                            关于钱沿
+                        </a>
+                    </li>
+                    <li class="disabled">
+                        <a href="###">
+                            商家服务
+                        </a>
+                    </li>
+                </ul>
+                <div class="sign-box">
+                    <ul class="p1">
+                        <li>
+                            <a href="###" style="cursor: default;">
+                                <i class="icon-tel01"></i>&nbsp;
+                                400-106-6698
+                            </a>
+                        </li>
+                        <li>
+                            <a href="###" class="disabled">
+                                客户服务
+                            </a>
+                        </li>
+                        <li class="last">
+                            <a href="###" class="disabled">
+                                APP下载
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="p2">
+                        <li>
+                            <a href="###" id="signOpen">
+                                登录&nbsp;&nbsp;/&nbsp;&nbsp;注册
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="nav-bg"></div>
+
+        <!-- banner区域 -->
+        <div class="solution-banner-wrap index">
+
+            <!-- 类似banner滚动的ul结构 -->
+            <div class="solution-scroll-pages-wrap animated fadeInDown" id="nav1scroll">
+
+                <!-- 滚动结构 -->
+                <ul data-index="0">
+                    <li>
+                        <div class="scroll-page">
+                            <h1>
+                                投资平台信用支付解决方案
+                            </h1>
+                            <h2 class="c1"></h2>
+                            <p>
+                                适用于安全的投资平台，投资者在投资后已经拥有了债权。<br />
+                                钱沿支付为这些平台提供信用惠商城，信用惠商城是支持“任信支付”的各类电商的导航入口，也是这些电商的特色优惠商品陈列。<br />
+                                投资者通过信用惠商城，进入到各类电商消费，使用“任信支付”消费，可实现债权转移支付，从而提前实现流动性。
+                            </p>
+                            <div class="note">
+                                适用于安全的投资平台
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="scroll-page">
+                            <div class="as">
+                                <img src="ow_depend/img/solution_as_img01.jpg?v=20150526"/>
+                                <h1>
+                                    应用场景
+                                </h1>
+                                <div class="as-text-box">
+                                    针对拥有丰富资金优势的投融资平台,为投资人提供丰富的消费场景，投资享信用，信用当钱花。投资者在投融资平台上进行理财购买后，可以通过债权转让获得信用在商城进行预消费。
+                                </div>
+                                <div class="as-text-box">
+                                    <table>
+                                        <tr>
+                                            <th>
+                                                <b>适用行业/平台：</b>
+                                            </th>
+                                            <td>
+                                                金融行业，投融资平台
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>
+                                                <b>适用对象：</b>
+                                            </th>
+                                            <td>
+                                                投资者，理财者，电商商家
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="scroll-page">
+                            <h2 class="c2"></h2>
+                            <div class="partners">
+                                <div>
+                                    <a href="###">
+                                        <img src="ow_depend/img/partners/zhaoshangyinhang.jpg?v=20150526" alt="招商银行" title="招商银行"/>
+                                    </a>
+                                    <p>招行小企业e家</p>
+                                </div>
+                                <div>
+                                    <a href="###">
+                                        <img src="ow_depend/img/partners/huarunyinhang.jpg?v=20150526" alt="华润银行" title="华润银行"/>
+                                    </a>
+                                    <p>资产交易平台</p>
+                                </div>
+                                <div>
+                                    <a href="###">
+                                        <img src="ow_depend/img/partners/qingdaoyinhang.jpg?v=20150526" alt="青岛银行" title="青岛银行"/>
+                                    </a>
+                                    <p>直销银行·投融资平台</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+                <!-- 左右箭头 -->
+                <a href="###" class="scroll-btn left">
+                    <i class="icon-chevron-thin-left"></i>
+                </a>
+                <a href="###" class="scroll-btn right">
+                    <i class="icon-chevron-thin-right"></i>
+                </a>
+
+            </div>
+
+            <div class="solution-scroll-pages-wrap animated fadeInDown" id="nav2scroll">
+
+                <!-- 滚动结构 -->
+                <ul data-index="0">
+                    <li>
+                        <div class="scroll-page">
+                            <h1>
+                                电商预付费支付解决方案
+                            </h1>
+                            <h2 class="c1"></h2>
+                            <p>
+                                售卖快速消耗品的电商，有圈存客户的愿望，希望客户能预存资金在平台，并能实时将预存资金转为消费。<br />
+                                钱沿支付为电商平台提供支付插件，让其拥有自己品牌的“余额宝”，来实现上述功能。
+                            </p>
+                            <div class="note">
+                                适用于具备重复消费属性的电商平台
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="scroll-page">
+                            <div class="as">
+                                <img src="ow_depend/img/solution_as_img02.jpg?v=20150526"/>
+                                <h1>
+                                    应用场景
+                                </h1>
+                                <div class="as-text-box">
+                                    针对预付费类服务电商，通过预付充值形式，达到留存、转换客户及促进消费的需求。消费者通过充值虚拟钱包，在电商网站进行快速消费。
+                                </div>
+                                <div class="as-text-box">
+                                    <table>
+                                        <tr>
+                                            <th>
+                                                <b>适用行业：</b>
+                                            </th>
+                                            <td>
+                                                交通运输/电子通讯/快速消费品/互联网行业等
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>
+                                                <b>适用对象：</b>
+                                            </th>
+                                            <td>
+                                                消费者、服务运营商、商家、公交卡/地铁卡市民，小区居民等
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="scroll-page">
+                            <h2 class="c2"></h2>
+                            <div class="partners">
+                                <div>
+                                    <a href="###">
+                                        <img src="ow_depend/img/partners/qulv.jpg?v=20150526" alt="趣旅网" title="趣旅网"/>
+                                    </a>
+                                    <p>趣旅网</p>
+                                </div>
+                                <div>
+                                    <a href="###">
+                                        <img src="ow_depend/img/partners/1905.jpg?v=20150526" alt="1905电影网" title="1905电影网"/>
+                                    </a>
+                                    <p>1905电影网</p>
+                                </div>
+                                <div>
+                                    <a href="###">
+                                        <img src="ow_depend/img/partners/mei.jpg?v=20150526" alt="魅力惠" title="魅力惠"/>
+                                    </a>
+                                    <p>魅力惠</p>
+                                </div>
+                                <div>
+                                    <a href="###">
+                                        <img src="ow_depend/img/partners/zouxiu.jpg?v=20150526" alt="走秀网" title="走秀网"/>
+                                    </a>
+                                    <p>走秀网</p>
+                                </div>
+                                <div>
+                                    <a href="###">
+                                        <img src="ow_depend/img/partners/vianmall.jpg?v=20150526" alt="微尚城" title="微尚城"/>
+                                    </a>
+                                    <p>微尚城</p>
+                                </div>
+                                <div>
+                                    <a href="###">
+                                        <img src="ow_depend/img/partners/luxji.jpg?v=20150526" alt="奢集" title="奢集"/>
+                                    </a>
+                                    <p>奢集</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+                <!-- 左右箭头 -->
+                <a href="###" class="scroll-btn left">
+                    <i class="icon-chevron-thin-left"></i>
+                </a>
+                <a href="###" class="scroll-btn right">
+                    <i class="icon-chevron-thin-right"></i>
+                </a>
+
+            </div>
+
+            <div class="solution-scroll-pages-wrap animated fadeInDown" id="nav3scroll">
+
+                <!-- 滚动结构 -->
+                <ul data-index="0">
+                    <li>
+                        <div class="scroll-page">
+                            <h1>
+                                垂直电商平台支付解决方案
+                            </h1>
+                            <h2 class="c1"></h2>
+                            <p>
+                                平台具备某种担保约束机制，冻结买卖双方交易过程中的资金，在买卖双方交易完成交割时再释放资金。<br />
+                                钱沿支付为电商平台提供完整支付插件，对上述资金进行托管与增值，并根据平台指令，进行清算。
+                            </p>
+                            <div class="note">
+                                适用于买卖双方进行商品贸易的电商平台
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="scroll-page">
+                            <div class="as">
+                                <img src="ow_depend/img/solution_as_img03.jpg?v=20150526"/>
+                                <h1>
+                                    应用场景
+                                </h1>
+                                <div class="as-text-box">
+                                    针对提供用户和入驻商户双方进行商品/服务交易的电商平台，在途及账期资金可增值，0交易手续费，安全、便捷。
+                                </div>
+                                <div class="as-text-box">
+                                    <table>
+                                        <tr>
+                                            <th>
+                                                <b>适用行业：</b>
+                                            </th>
+                                            <td>
+                                                制药/医疗服务行业，外包/中介/服务行业，电商服务平台等。
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>
+                                                <b>适用对象：</b>
+                                            </th>
+                                            <td>
+                                                制药厂商、供应商、经销商，消费者，外包中介、外资企业、中小企业、员工，增值服务供应商等。
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="scroll-page">
+                            <h2 class="c2"></h2>
+                            <div class="partners">
+                                <div>
+                                    <a href="###">
+                                        <img src="ow_depend/img/partners/zhenyaocai.jpg?v=20150526" alt="九州通医药集团" title="九州通医药集团"/>
+                                    </a>
+                                    <p>九州通医药集团</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+                <!-- 左右箭头 -->
+                <a href="###" class="scroll-btn left">
+                    <i class="icon-chevron-thin-left"></i>
+                </a>
+                <a href="###" class="scroll-btn right">
+                    <i class="icon-chevron-thin-right"></i>
+                </a>
+
+            </div>
+
+            <div class="solution-scroll-pages-wrap animated fadeInDown" id="nav4scroll">
+
+                <!-- 滚动结构 -->
+                <ul data-index="0">
+                    <li>
+                        <div class="scroll-page">
+                            <h1>
+                                交易平台担保支付解决方案
+                            </h1>
+                            <h2 class="c1"></h2>
+                            <p>
+                                此类平台对交易安全问题要求较高，有效的解决电子商务交易中的信用问题，极大促进了电子商务成功率。钱沿支付可为此类应用场景提供担保支付交易平台，保障资金安全，保障消费者的权益。
+                            </p>
+                            <div class="note">
+                                适用于电子商务类平台
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="scroll-page">
+                            <div class="as">
+                                <img src="ow_depend/img/solution_as_img04.jpg?v=20150526"/>
+                                <h1>
+                                    应用场景
+                                </h1>
+                                <div class="as-text-box">
+                                    针对电子商务平台，为其交易双方提供资金安全担保服务，保障其交易资金安全，同时保障消费者合法权益。
+                                </div>
+                                <div class="as-text-box">
+                                    <table>
+                                        <tr>
+                                            <th>
+                                                <b>适用行业：</b>
+                                            </th>
+                                            <td>
+                                                制造业/消费品/物流等行业/投资/债券/信托/典当等金融行业
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>
+                                                <b>适用对象：</b>
+                                            </th>
+                                            <td>
+                                                厂家、供应商、经销商、分销商、消费者、商家，投资者、拍卖者等
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="scroll-page">
+                            <h2 class="c2"></h2>
+                        </div>
+                    </li>
+                </ul>
+
+                <!-- 左右箭头 -->
+                <a href="###" class="scroll-btn left">
+                    <i class="icon-chevron-thin-left"></i>
+                </a>
+                <a href="###" class="scroll-btn right">
+                    <i class="icon-chevron-thin-right"></i>
+                </a>
+
+            </div>
+
+            <div class="solution-scroll-pages-wrap animated fadeInDown" id="nav5scroll">               
+
+                <!-- 滚动结构 -->
+                <ul data-index="0">
+                    <li>
+                        <div class="scroll-page">
+                            <h1>
+                                企业自动划扣支付解决方案
+                            </h1>
+                            <h2 class="c1"></h2>
+                            <p>
+                                企业与消费者已达成了某种有条件自动支付方案，在触发条件达到时，企业有权对消费者的资金进行划扣。<br />
+                                如水电煤的缴费划扣，如电信话费的划扣，如粤通卡ETC的划扣，如羊城通地铁收费的划扣….支付场景无处不在。<br />
+                                钱沿支付为这类场景提供支付接口或支付插件，对消费者的资金进行增值，并支持根据企业的指令进行划扣转移。
+                            </p>
+                            <div class="note">
+                                适用于已与消费者达成某种有条件自动支付方案企业
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="scroll-page">
+                            <div class="as">
+                                <img src="ow_depend/img/solution_as_img05.jpg?v=20150526"/>
+                                <h1>
+                                    应用场景
+                                </h1>
+                                <div class="as-text-box">
+                                    针对已与消费者签约并达成自动划扣协议的企业，为其提供资金自动划扣服务，且账面资金可增值，免去消费者柜台缴费繁琐手续。
+                                </div>
+                                <div class="as-text-box">
+                                    <table>
+                                        <tr>
+                                            <th>
+                                                <b>适用行业/平台：</b>
+                                            </th>
+                                            <td>
+                                                交通运输/电子通讯/快速消费品/互联网行业等
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>
+                                                <b>适用对象：</b>
+                                            </th>
+                                            <td>
+                                                消费者、服务运营商、商家、公交卡/地铁卡市民，小区居民等
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="scroll-page">
+                            <h2 class="c2"></h2>
+                            <div class="partners">
+                                <div>
+                                    <a href="###">
+                                        <img src="ow_depend/img/partners/sdhs.jpg?v=20150526" alt="山东高速" title="山东高速"/>
+                                    </a>
+                                    <p>山东高速</p>
+                                </div>
+                                <div>
+                                    <a href="###">
+                                        <img src="ow_depend/img/partners/yangchengtong.jpg?v=20150526" alt="羊城通" title="羊城通"/>
+                                    </a>
+                                    <p>羊城通</p>
+                                </div>
+                                <div>
+                                    <a href="###">
+                                        <img src="ow_depend/img/partners/gwbn.jpg?v=20150526" alt="长城宽带" title="长城宽带"/>
+                                    </a>
+                                    <p>长城宽带</p>
+                                </div>
+                                <div>
+                                    <a href="###">
+                                        <img src="ow_depend/img/partners/wankewuye.jpg?v=20150526" alt="万科物业" title="万科物业"/>
+                                    </a>
+                                    <p>万科物业</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+                <!-- 左右箭头 -->
+                <a href="###" class="scroll-btn left">
+                    <i class="icon-chevron-thin-left"></i>
+                </a>
+                <a href="###" class="scroll-btn right">
+                    <i class="icon-chevron-thin-right"></i>
+                </a>
+
+            </div>
+
+            <div class="solution-scroll-pages-wrap animated fadeInDown" id="nav6scroll">
+
+                <!-- 滚动结构 -->
+                <ul data-index="0">
+                    <li>
+                        <div class="scroll-page">
+                            <h1>
+                                线下商户会员预付费解决方案
+                            </h1>
+                            <h2 class="c1"></h2>
+                            <p>
+                                此类商户希望客户能预付会员费，并能实时使用预付资金进行消费，存在吸引客户预付并达到有效转化的需求。钱沿支付可为此类电商平台提供支付终端机，帮助商户快速留存和转化客户。
+
+                            </p>
+                            <div class="note">
+                                适用于实体店店铺铺商户
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="scroll-page">
+                            <div class="as">
+                                <img src="ow_depend/img/solution_as_img06.jpg?v=20150526"/>
+                                <h1>
+                                    应用场景
+                                </h1>
+                                <div class="as-text-box">
+                                    针对实体商家会员，为其提供会员预付费服务，促进线下消费，提高资本运作能力。消费者可通过充值消费卡余额，在商家门店直接购买商品
+                                </div>
+                                <div class="as-text-box">
+                                    <table>
+                                        <tr>
+                                            <th>
+                                                <b>适用行业/平台：</b>
+                                            </th>
+                                            <td>
+                                                零售业/餐饮业/服务业
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>
+                                                <b>适用对象：</b>
+                                            </th>
+                                            <td>
+                                                消费者、零售店、食家、酒楼、俱乐部
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="scroll-page">
+                            <h2 class="c2"></h2>
+                        </div>
+                    </li>
+                </ul>
+
+                <!-- 左右箭头 -->
+                <a href="###" class="scroll-btn left">
+                    <i class="icon-chevron-thin-left"></i>
+                </a>
+                <a href="###" class="scroll-btn right">
+                    <i class="icon-chevron-thin-right"></i>
+                </a>
+
+            </div>
+
+            <div class="solution-scroll-pages-wrap animated fadeInDown" id="nav7scroll">
+
+                <!-- 滚动结构 -->
+                <ul data-index="0">
+                    <li>
+                        <div class="scroll-page">
+                            <h1>
+                                集团供应链跨行支付结算解决方案
+                            </h1>
+                            <h2 class="c1"></h2>
+                            <p>
+                                传统网银已经无法灵活适应集团供应链的支付清算要求。钱沿支付支持多家银行，一点接入验证后，创新通过债权转移实现跨行跨地域的支付结算，同时实现在途资金的增值。<br />
+                                钱沿支付亦能灵活根据核心企业的业务需求，对收付、结算、统计进行个性化统计，并实现与其ERP系统无缝对接.
+                            </p>
+                            <div class="note">
+                                适用于集团供应链多对一跨地域、跨行支付
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="scroll-page">
+                            <div class="as">
+                                <img src="ow_depend/img/solution_as_img07.jpg?v=20150526"/>
+                                <h1>
+                                    应用场景
+                                </h1>
+                                <div class="as-text-box">
+                                    针对供应链集团型企业，提供多对一跨地域、跨行支付途径，集团企业通过自动资金归集功能，将其各地市分公司、承包商跨行经营款项统一汇总管理，且账面资金可增值。
+                                </div>
+                                <div class="as-text-box">
+                                    <table>
+                                        <tr>
+                                            <th>
+                                                <b>适用行业/平台：</b>
+                                            </th>
+                                            <td>
+                                                物流/零售业/农牧业/消费品等行业
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>
+                                                <b>适用对象：</b>
+                                            </th>
+                                            <td>
+                                                集团企业的分/子公司、承包商、经销商等
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="scroll-page">
+                            <h2 class="c2"></h2>
+                            <div class="partners">
+                                <div>
+                                    <a href="###">
+                                        <img src="ow_depend/img/partners/zhongyuanjituan.jpg?v=20150526" alt="中远集团" title="中远集团"/>
+                                    </a>
+                                    <p>中远集团</p>
+                                </div>
+                                <div>
+                                    <a href="###">
+                                        <img src="ow_depend/img/partners/kunbaijituan.jpg?v=20150526" alt="昆百大集团" title="昆百大集团"/>
+                                    </a>
+                                    <p>昆明百货公司</p>
+                                </div>
+                                <div>
+                                    <a href="###">
+                                        <img src="ow_depend/img/partners/jinfengkeji.jpg?v=20150526" alt="金风科技" title="金风科技"/>
+                                    </a>
+                                    <p>金风科技</p>
+                                </div>
+                                <div>
+                                    <a href="###">
+                                        <img src="ow_depend/img/partners/chinamb.jpg?v=20150526" alt="中国移动" title="中国移动"/>
+                                    </a>
+                                    <p>终端公司分销平台</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+                <!-- 左右箭头 -->
+                <a href="###" class="scroll-btn left">
+                    <i class="icon-chevron-thin-left"></i>
+                </a>
+                <a href="###" class="scroll-btn right">
+                    <i class="icon-chevron-thin-right"></i>
+                </a>
+
+            </div>
+
+            <!-- 行业解决方案首页的简短描述文字结构 -->
+            <div class="solution-base">
+                <img src="ow_depend/img/solution_title_1.png" class="solution-title animated bounceInLeft"/>
+                <p class="solution-Text animated bounceInRight">
+                    创新支付，因需而变。<br />
+                    钱沿支付成熟的行业支付解决方案，包括不仅限于：<br />
+                    投资平台信用支付，电商预付费支付，垂直电商平台支付，<br />
+                    交易平台担保支付，企业自动划扣支付，线下商户会员预付费，集团供应链支付结算。
+                </p>
+            </div>
+
+            <!-- 行业解决方案导航 -->
+            <div class="solution-nav-wrap">
+                
+                <!-- 一级导航 -->
+                <a id="nav1" href="###" class="item">
+                    <b></b>
+                    <p>
+                        <i class="icon-tel01"></i><br />
+                        投资平台信用<br />
+                        支付解决方案
+                    </p>
+                </a>
+                <a id="nav2" href="###" class="item">
+                    <b></b>
+                    <p>
+                        <i class="icon-tel01"></i><br />
+                        电商预付费<br />
+                        支付解决方案
+                    </p>
+                </a>
+                <a id="nav3" href="###" class="item">
+                    <b></b>
+                    <p>
+                        <i class="icon-tel01"></i><br />
+                        垂直电商平台<br />
+                        支付解决方案
+                    </p>
+                </a>
+                <a id="nav4" href="###" class="item">
+                    <b></b>
+                    <p>
+                        <i class="icon-tel01"></i><br />
+                        交易平台担保<br />
+                        支付解决方案
+                    </p>
+                </a>
+                <a id="nav5" href="###" class="item">
+                    <b></b>
+                    <p>
+                        <i class="icon-tel01"></i><br />
+                        企业自动划扣<br />
+                        支付解决方案
+                    </p>
+                </a>
+                <a id="nav6" href="###" class="item">
+                    <b></b>
+                    <p>
+                        <i class="icon-tel01"></i><br />
+                        线下商户会员<br />
+                        预付费解决方案
+                    </p>
+                </a>
+                <a id="nav7" href="###" class="item">
+                    <b></b>
+                    <p>
+                        <i class="icon-tel01"></i><br />
+                        集团供应链跨行<br />
+                        支付结算解决方案
+                    </p>
+                </a>
+
+                <!-- 二级导航 -->
+                <div class="solution-nav-lv2" id="nav1Content" data-left="0">
+                    <div class="boxone">
+                        <b></b>
+                        <p>
+                            <i class="icon-tel01"></i><br />
+                            投资平台信用<br />
+                            支付解决方案
+                        </p>
+                    </div>
+                    <ul class="boxtwo">
+                        <li>
+                            <a href="###" class="active">
+                                概述
+                            </a>
+                        </li>
+                        <li>
+                            <a href="###">
+                                应用场景
+                            </a>
+                        </li>
+                        <li>
+                            <a href="###">
+                                成功案例
+                            </a>
+                        </li>
+                    </ul>
+                    <a href="###" class="backToNav" onclick="getOut(this)">
+                        <i class="icon-chevron-thin-left"></i>&nbsp;&nbsp;返回
+                    </a>
+                </div>
+
+                <div class="solution-nav-lv2" id="nav2Content" data-left="143px">
+                    <div class="boxone">
+                        <b></b>
+                        <p>
+                            <i class="icon-tel01"></i><br />
+                            电商预付费<br />
+                            支付解决方案
+                        </p>
+                    </div>
+                    <ul class="boxtwo">
+                        <li>
+                            <a href="###" class="active">
+                                概述
+                            </a>
+                        </li>
+                        <li>
+                            <a href="###">
+                                应用场景
+                            </a>
+                        </li>
+                        <li>
+                            <a href="###">
+                                成功案例
+                            </a>
+                        </li>
+                    </ul>
+                    <a href="###" class="backToNav" onclick="getOut(this)">
+                        <i class="icon-chevron-thin-left"></i>&nbsp;&nbsp;返回
+                    </a>
+                </div>
+
+                <div class="solution-nav-lv2" id="nav3Content" data-left="286px">
+                    <div class="boxone">
+                        <b></b>
+                        <p>
+                            <i class="icon-tel01"></i><br />
+                            垂直电商平台<br />
+                            支付解决方案
+                        </p>
+                    </div>
+                    <ul class="boxtwo">
+                        <li>
+                            <a href="###" class="active">
+                                概述
+                            </a>
+                        </li>
+                        <li>
+                            <a href="###">
+                                应用场景
+                            </a>
+                        </li>
+                        <li>
+                            <a href="###">
+                                成功案例
+                            </a>
+                        </li>
+                    </ul>
+                    <a href="###" class="backToNav" onclick="getOut(this)">
+                        <i class="icon-chevron-thin-left"></i>&nbsp;&nbsp;返回
+                    </a>
+                </div>
+
+                <div class="solution-nav-lv2" id="nav4Content" data-left="429px">
+                    <div class="boxone">
+                        <b></b>
+                        <p>
+                            <i class="icon-tel01"></i><br />
+                            交易平台担保<br />
+                            支付解决方案
+                        </p>
+                    </div>
+                    <ul class="boxtwo">
+                        <li>
+                            <a href="###" class="active">
+                                概述
+                            </a>
+                        </li>
+                        <li>
+                            <a href="###">
+                                应用场景
+                            </a>
+                        </li>
+                        <li>
+                            <a href="###">
+                                成功案例
+                            </a>
+                        </li>
+                    </ul>
+                    <a href="###" class="backToNav" onclick="getOut(this)">
+                        <i class="icon-chevron-thin-left"></i>&nbsp;&nbsp;返回
+                    </a>
+                </div>
+
+                <div class="solution-nav-lv2" id="nav5Content" data-left="572px">
+                    <div class="boxone">
+                        <b></b>
+                        <p>
+                            <i class="icon-tel01"></i><br />
+                            企业自动划扣<br />
+                            支付解决方案
+                        </p>
+                    </div>
+                    <ul class="boxtwo">
+                        <li>
+                            <a href="###" class="active">
+                                概述
+                            </a>
+                        </li>
+                        <li>
+                            <a href="###">
+                                应用场景
+                            </a>
+                        </li>
+                        <li>
+                            <a href="###">
+                                成功案例
+                            </a>
+                        </li>
+                    </ul>
+                    <a href="###" class="backToNav" onclick="getOut(this)">
+                        <i class="icon-chevron-thin-left"></i>&nbsp;&nbsp;返回
+                    </a>
+                </div>
+
+                <div class="solution-nav-lv2" id="nav6Content" data-left="715px">
+                    <div class="boxone">
+                        <b></b>
+                        <p>
+                            <i class="icon-tel01"></i><br />
+                            线下商户会员<br />
+                            预付费解决方案
+                        </p>
+                    </div>
+                    <ul class="boxtwo">
+                        <li>
+                            <a href="###" class="active">
+                                概述
+                            </a>
+                        </li>
+                        <li>
+                            <a href="###">
+                                应用场景
+                            </a>
+                        </li>
+                        <li>
+                            <a href="###">
+                                成功案例
+                            </a>
+                        </li>
+                    </ul>
+                    <a href="###" class="backToNav" onclick="getOut(this)">
+                        <i class="icon-chevron-thin-left"></i>&nbsp;&nbsp;返回
+                    </a>
+                </div>
+
+                <div class="solution-nav-lv2" id="nav7Content" data-left="858px">
+                    <div class="boxone">
+                        <b></b>
+                        <p>
+                            <i class="icon-tel01"></i><br />
+                            集团供应链跨行<br />
+                            支付结算解决方案
+                        </p>
+                    </div>
+                    <ul class="boxtwo">
+                        <li>
+                            <a href="###" class="active">
+                                概述
+                            </a>
+                        </li>
+                        <li>
+                            <a href="###">
+                                应用场景
+                            </a>
+                        </li>
+                        <li>
+                            <a href="###">
+                                成功案例
+                            </a>
+                        </li>
+                    </ul>
+                    <a href="###" class="backToNav" onclick="getOut(this)">
+                        <i class="icon-chevron-thin-left"></i>&nbsp;&nbsp;返回
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- footer -->
+        <footer class="index">
+            <div class="show">
+                <i class="icon-chevron-thin-up"></i>
+            </div>
+            <div>
+                <div class="part-left">
+                    <ul class="footer-nav">
+                        <li>
+                            <a href="aboutUs.html">
+                                关于钱沿
+                            </a>
+                        </li>
+                        <li>
+                            <a href="###" class="disabled">
+                                诚聘精英
+                            </a>
+                        </li>
+                        <li>
+                            <a href="contactUs.html">
+                                商务合作
+                            </a>
+                        </li>
+                        <li>
+                            <a href="ourPartners.html">
+                                合作伙伴
+                            </a>
+                        </li>
+                        <li>
+                            <a href="legalStatement.html">
+                                法律声明
+                            </a>
+                        </li>
+                        <li class="last">
+                            <a href="privacyClause.html">
+                                隐私条款
+                            </a>
+                        </li>
+                    </ul>  
+                    <p>
+                        版权所有&copy;广东钱途互联商务服务有限公司&nbsp;&nbsp;&nbsp;&nbsp;粤ICP备&nbsp;14098252号
+                    </p>  
+                </div>
+                <div class="part-right">
+                    <div class="cstel-box">
+                        <p>
+                            客服热线：
+                        </p>
+                        <h3>
+                            400-106-6698
+                        </h3>
+                    </div>
+                    <!--<div class="code-box">
+                        <img src="ow_depend/img/footerQRCode.jpg?v=20150521a" alt="钱沿支付微信二维码" title="钱沿支付微信二维码"/>
+                        <p>
+                            关注微信
+                        </p>
+                    </div>-->
+                </div>
+            </div>
+        </footer>
+
+        <script type="text/javascript" src="ow_depend/js/jquery-1.11.1.min.js"></script>
+        <script type="text/javascript" src="ow_depend/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="ow_depend/js/box-slider-all.jquery.min.js"></script>
+        <script type="text/javascript" src="ow_depend/js/scroller.js"></script>
+        <script type="text/javascript" src="ow_depend/js/framwork.min.js"></script>
+        <script>   
+        </script>
+
+    </body>
+
+</html>
