@@ -637,7 +637,7 @@ nav {
   background-color: #351e47;
   opacity: 0.9;
   filter: alpha(opacity=90);
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -809,7 +809,7 @@ nav .sign-box > .p1 {
   padding: 0;
   list-style: none;
   *zoom: 1;
-  padding: 24px 0 0 0;
+  padding: 52px 0 0 0;
 }
 nav .sign-box > .p1 > li {
   font-size: 0;
@@ -2305,9 +2305,9 @@ footer.index > .show {
 }
 .solution-banner-wrap .solution-scroll-pages-wrap {
   width: 100%;
-  margin: 11% auto 0 auto;
+  margin: 8% auto 0 auto;
   position: relative;
-  height: 480px;
+  height: 498px;
   overflow: hidden;
   display: none;
 }

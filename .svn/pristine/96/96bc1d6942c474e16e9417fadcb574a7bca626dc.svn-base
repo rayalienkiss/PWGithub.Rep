@@ -809,7 +809,7 @@ nav .sign-box > .p1 {
   padding: 0;
   list-style: none;
   *zoom: 1;
-  padding: 24px 0 0 0;
+  padding: 52px 0 0 0;
 }
 nav .sign-box > .p1 > li {
   font-size: 0;

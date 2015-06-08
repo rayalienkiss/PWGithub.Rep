@@ -121,7 +121,7 @@ nav {
         > .p1 {
             .reset-list( left,block,0,0 );
             .clearfix();
-            padding: 24px 0 0 0;
+            padding: 52px 0 0 0;
 
             > li {
                 padding: 0 7px 0 0;
