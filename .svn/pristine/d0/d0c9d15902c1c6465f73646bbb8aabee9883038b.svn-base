@@ -1,0 +1,323 @@
+@import "_share";
+
+/*
+--- index ---
+*/
+
+@charset "UTF-8";
+
+body { 
+    overflow: hidden; 
+}
+
+.ddw {
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #000;
+    font-size: 16px;
+    z-index: 9999;
+}
+
+.ddw2 {
+    position: absolute;
+    left: 20px;
+    top: 0;
+    color: #000;
+    font-size: 16px;
+    z-index: 9999;
+}
+
+.num_box {
+    position: relative;
+    width:1000px;
+}
+
+#num_0 {
+    background: url('@{sprite-url}banner_1920/bac1.jpg?v=20150526') #fff center center no-repeat;
+    background-size: cover;
+}
+
+#num_1 {
+    background: url('@{sprite-url}banner_1920/bac2.jpg?v=20150526') #fff center center no-repeat;
+    background-size: cover
+}
+
+#num_2 {
+    background: url('@{sprite-url}banner_1920/bac3.jpg?v=20150526') #fff center center no-repeat;
+    background-size: cover;
+}
+
+#num_3 {
+    background: url('@{sprite-url}banner_1920/bac4.jpg?v=20150526') #fff center center no-repeat;
+    background-size: cover;
+}
+
+#num_4 {
+    background: url('@{sprite-url}banner_1920/bac5.jpg?v=20150526') #fff center center no-repeat;
+    background-size: cover;
+}
+
+.solgan-wrap {
+    position: absolute;
+    top: 50%;
+
+    &.one {
+        right: 0;
+        height: 144px;
+        margin-top: -72px;
+        width: 548px;
+        .clearfix();
+    }
+
+    &.two {
+        left: 0;
+        top: 20%;
+        width: 50%;
+    }
+
+    &.three {
+        right: 0;
+        top: 30%;
+        width: 548px;
+        .clearfix();
+    }
+
+    &.four {
+        left: 0;
+        top: 23%;
+        width: 548px;
+        .clearfix();
+    }
+
+    &.five {
+        right: 0;
+        top: 26%;
+        width: 488px;
+        .clearfix();
+    }
+}
+
+.index-wrap {
+    position: relative;
+    width: @base-mainBody-width;
+    margin: 0 auto;
+    height: 100%;
+
+    img {
+        display: block;
+        /*position: absolute;*/
+    }
+
+    .solgan-1 {
+        /*top: 50%;
+        right: 0;
+        margin-top: -100px;*/
+        float: right;
+    }
+
+    .solgan-2 {
+        /*top: 50%;
+        right: 54px;*/
+        .animation-delay( 0.3s );
+        float: right;
+        margin-right: 10px;
+    }
+
+    .solgan-3 {
+        /*top: 22%;
+        left: 0;*/
+        margin: 0 0 15px 30px;
+    }
+
+    .solgan-4 {
+        /*top: 30%;
+        left: 140px;*/
+        margin: 0 0 20px 160px;
+    }
+
+    .solgan-5 {
+        /*top: 31%;
+        right: 30px;*/
+        margin: 0 28px 15px 0;
+        float: right;
+    }
+
+    .solgan-6 {
+        margin: 0 0 30px 0;
+    }
+
+    .solgan-8 {
+        
+    }
+
+    .solgan-7 {
+        /*top: 270px;
+        right: 30px;*/
+        float: right;
+        margin: 0 0 30px 0;
+    }
+
+    .dep {
+        font-size: @base-fontSize + 10px;
+        margin: 0 0 0 30px;
+        line-height: 1.2;
+        display: block;
+        color: #444;
+
+        &.inp3 {
+            float: right;
+            margin-right: 14px;
+        }
+    }
+}
+
+.fixed_r {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    z-index: 999;
+    height: 150px;
+    margin: -75px 0 0 0;
+
+    > ul {
+        .reset-list( none,block,0,0 );
+
+        li {
+            .rounded( 50% );
+            margin: 0 0 10px 0;
+            width: 16px;
+            height: 16px;
+            background: #fff;
+            cursor: pointer;
+
+            &.on {
+                background: @mainColor2;
+            }
+        }
+    }
+}
+
+/* Ò³½Å */
+.footer {
+    background-color: @base-bg;
+    min-width: @base-mainBody-width;
+    border-top: 2px solid #e3e1e1;
+    padding: 15px 0 0 0;
+    display: block;
+    margin: 0 auto;
+
+    &.index {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        z-index: 3;
+        width: @base-section-wrap-width;
+    }
+
+    > div {
+        width: @base-mainBody-width;
+        margin: 0 auto;
+        padding: 0 0 20px 0;
+        .clearfix();
+
+        .part-left {
+            float: left;
+            padding: 0;
+
+            > p {
+                margin: 0;
+                padding: 14px 0 0 0;
+                font-size: @base-fontSize - 2px;
+                color: @sub-fontColor;
+                line-height: 1;
+            }
+        }
+
+        .part-right {
+            float: right;
+            font-size: 0;
+            line-height: 0;
+
+            .cstel-box {
+                display: inline-block;
+                vertical-align: middle;
+
+                > p {
+                    margin: 0 0 5px 0;
+                    line-height: 1.2;
+                    font-size: @base-fontSize;
+                }
+
+                > h3 {
+                    margin: 0;
+                    font-size: @big-fontSize;
+                    line-height: 1.2;
+                }
+            }
+
+            .code-box {
+                border-left: 1px solid #d6d6d6;
+                height: 104px;
+                display: inline-block;
+                vertical-align: middle;
+                text-align: center;
+                width: 164px;
+                margin: 0 0 0 34px;
+
+                > img {
+                    display: inline-block;
+                    outline: none;
+                    width: 72px;
+                    height: 72px;
+                }
+
+                > p {
+                    margin: 8px 0 0 0;
+                    font-size: @base-fontSize;
+                    line-height: 1.2;
+                }
+            }
+        }
+    }
+
+    .footer-nav {
+        .clearfix();
+
+        > div {
+            padding: 0 10px 0 0;
+            margin: 0 10px 0 0;
+            border-right: 1px solid @base-fontColor;
+            font-size: @base-fontSize;
+            line-height: 14px;
+            float: left;
+
+            > a {
+                .link( @base-fontColor,0.2,none );
+                .transition( all,0.3s,ease,0 );
+
+                &.disabled {
+                    color: @sub-fontColor;
+                    cursor: default;
+                }
+            }
+
+            &:last-child {
+                padding: 0;
+                margin: 0;
+                border-right: none;
+            }
+        }
+    }
+}
+
+/*
+--- just test svn update ---
+*/
+
+
+
+
+
+
+
