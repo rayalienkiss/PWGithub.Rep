@@ -18,7 +18,6 @@
     .solution-base {
         width: @base-mainBody-width;
         position: absolute;
-        height: 480px;
         top: 28%;
         left: 50%;
         margin-left: -( @base-mainBody-width / 2 );
@@ -323,7 +322,7 @@
         }
     }*/
     .solution-nav-wrap {
-        position: absolute;
+        position: fixed;
         width: @base-mainBody-width;
         bottom: 32px;
         left: 50%;
@@ -789,10 +788,9 @@
 
     .solution-scroll-pages-wrap {
         width: 100%;
-        top: 50%;
-        margin-top: -249px;
-        position: absolute;
-        height: 498px;
+        margin: 11% auto 0 auto;
+        position: relative;
+        height: 480px;
         overflow: hidden;
         display: none;
 
@@ -836,7 +834,6 @@
             border: 10px solid #fff;
             margin: 0 auto;
             color: @main-topicColor;
-            position: relative;
 
             > h1 {
                 font-size: 48px;
@@ -879,10 +876,7 @@
                 text-align: center;
                 font-size: @base-fontSize + 6px;
                 line-height: 52px;
-                position: absolute;
-                bottom: 20px;
-                left: 50%;
-                margin-left: -239px;
+                margin: 0 auto;
             }
         }
 
@@ -926,13 +920,13 @@
     }
 
     &.index {
-        background: url('@{sprite-url}banner_1920/solution_banner01.jpg?v=20150525') #fff center center no-repeat;
+        background: url('@{sprite-url}banner_1920/solution_banner01.jpg?v=20150525') #fff no-repeat;
         background-size: cover;
         position: absolute;
         top: 0;
         left: 0;
-        height: 86%;
-        width: 100%;  
+        width: 100%;
+        height: 100%;
     }
 
     &.nav1-bg,
@@ -945,9 +939,9 @@
         position: absolute;
         top: 0;
         left: 0;
-        height: 86%;
         width: 100%;
-        
+        height: 100%;
+
         .solution-base {
             display: none;
         }
@@ -958,7 +952,7 @@
     }
 
     &.nav1-bg {
-        background: url('@{sprite-url}banner_1920/bac3.jpg?v=20150525') #fff center center no-repeat;
+        background: url('@{sprite-url}banner_1920/bac3.jpg?v=20150525') #fff no-repeat;
         background-size: cover;
 
         #nav1scroll {
@@ -967,7 +961,7 @@
     }
 
     &.nav2-bg {
-        background: url('@{sprite-url}banner_1920/bac2.jpg?v=20150525') #fff center center no-repeat;
+        background: url('@{sprite-url}banner_1920/bac2.jpg?v=20150525') #fff no-repeat;
         background-size: cover;
 
         #nav2scroll {
@@ -976,7 +970,7 @@
     }
 
     &.nav3-bg {
-        background: url('@{sprite-url}banner_1920/bac4.jpg?v=20150525') #fff center center no-repeat;
+        background: url('@{sprite-url}banner_1920/bac4.jpg?v=20150525') #fff no-repeat;
         background-size: cover;
 
         #nav3scroll {
@@ -985,7 +979,7 @@
     }
 
     &.nav4-bg {
-        background: url('@{sprite-url}banner_1920/solution_banner04.jpg?v=20150525') #fff center center no-repeat;
+        background: url('@{sprite-url}banner_1920/solution_banner04.jpg?v=20150525') #fff no-repeat;
         background-size: cover;
 
         #nav4scroll {
@@ -994,7 +988,7 @@
     }
 
     &.nav5-bg {
-        background: url('@{sprite-url}banner_1920/bac5.jpg?v=20150525') #fff center center no-repeat;
+        background: url('@{sprite-url}banner_1920/bac5.jpg?v=20150525') #fff no-repeat;
         background-size: cover;
 
         #nav5scroll {
@@ -1003,7 +997,7 @@
     }
 
     &.nav6-bg {
-        background: url('@{sprite-url}banner_1920/solution_banner02.jpg?v=20150525') #fff center center no-repeat;
+        background: url('@{sprite-url}banner_1920/solution_banner02.jpg?v=20150525') #fff no-repeat;
         background-size: cover;
 
         #nav6scroll {
@@ -1012,7 +1006,7 @@
     }
 
     &.nav7-bg {
-        background: url('@{sprite-url}banner_1920/solution_banner09.jpg?v=20150525') #fff center center no-repeat;
+        background: url('@{sprite-url}banner_1920/solution_banner09.jpg?v=20150525') #fff no-repeat;
         background-size: cover;
 
         #nav7scroll {
@@ -1076,41 +1070,14 @@
     .animation-delay( 1s );
 }
 
-footer {
-
-    &.index {
-        position: absolute;
-        width: 100%;
-        top: 86%;
-        left: 0;
-    }
-}
-
 @media ( min-width: 320px ) {
-
+    
     .solution-banner-wrap {
         min-width: @base-mainBody-width + 80px;
-
-        &.index {
-            height: 150%;
-        }
-
-        &.nav1-bg,
-        &.nav2-bg,
-        &.nav3-bg,
-        &.nav4-bg,
-        &.nav5-bg,
-        &.nav6-bg,
-        &.nav7-bg {
-            height: 150%;
-        }
     }
 
-    footer {
-
-        &.index {
-            top: 150%;
-        }
+    .solution-nav-wrap {
+        position: absolute !important;
     }
 }
 
@@ -1118,66 +1085,9 @@ footer {
 
     .solution-banner-wrap {
         min-width: @base-mainBody-width;
-
-        &.index {
-            height: 86%;
-        }
-
-        &.nav1-bg,
-        &.nav2-bg,
-        &.nav3-bg,
-        &.nav4-bg,
-        &.nav5-bg,
-        &.nav6-bg,
-        &.nav7-bg {
-            height: 86%;
-        }
     }
 
-    footer {
-
-        &.index {
-            top: 86%;
-        }
-    }
-}
-
-@media ( max-height: 820px ) {
-
-    .solution-base {
-        height: 280px !important;
-    }
-
-    .solution-scroll-pages-wrap {
-        margin-top: -220px !important;
-        height: 440px !important;
-
-        .scroll-btn {
-            height: 440px !important;
-            line-height: 440px !important;
-        }
-
-        > ul {
-
-            > li {
-                height: 460px !important;
-            }
-        }
-
-        .scroll-page {
-            height: 402px !important;
-
-            > h1 {
-                font-size: 36px !important;
-                padding: 34px 0 24px 0 !important;
-            }
-
-            > h2 {
-
-                &.c2 {
-                    margin: 20px auto 0 auto !important;
-                }
-            }
-        }
+    .solution-nav-wrap {
+        position: fixed !important;
     }
 }
