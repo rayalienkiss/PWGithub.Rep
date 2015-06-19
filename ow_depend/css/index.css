@@ -1732,6 +1732,88 @@ footer.index > .show {
     min-width: 1000px;
   }
 }
+.feedback-wrap {
+  position: relative;
+  width: 770px;
+  border: 6px solid #cfcfcf;
+  border-color: rgba(207, 207, 207, 0.5);
+}
+.feedback-wrap .popwin-head {
+  margin: 0;
+  padding: 0 20px;
+  background: #ededed;
+  font-size: 18px;
+  color: #444;
+  height: 46px;
+  line-height: 46px;
+  font-weight: 500;
+  text-align: left;
+}
+.feedback-wrap .popwin-content {
+  background: #fff;
+  height: 500px;
+}
+.feedback-wrap .popwin-close {
+  top: -6px;
+  right: -36px;
+}
+.feedback-frm {
+  margin: 50px auto 0;
+  width: 418px;
+  text-align: left;
+  font-size: 14px;
+  color: #999;
+}
+.feedback-frm em {
+  margin: 0 2px;
+  color: #d8b45e;
+  font-style: normal;
+}
+.feedback-frm .feedback-frm-item {
+  position: relative;
+  margin-bottom: 10px;
+}
+.feedback-frm .feedback-frm-item label {
+  position: absolute;
+  top: 13px;
+  left: 11px;
+}
+.feedback-frm .feedback-frm-input {
+  display: block;
+  width: 408px;
+  border: 1px solid #d8d8d8;
+  border-radius: 4px;
+  height: 46px;
+  line-height: 46px;
+  padding: 0 10px;
+}
+.feedback-frm .feedback-frm-textarea {
+  height: 120px;
+  overflow: hidden;
+  resize: vertical;
+}
+.feedback-frm .feedback-frm-btn {
+  width: 150px;
+  height: 44px;
+  border: none;
+  background: #c7c7c7;
+  color: #fff;
+  border-bottom: 2px solid #b3b3b3;
+  border-radius: 4px;
+}
+.feedback-frm .feedback-frm-btn:hover {
+  background: #d1d0d0;
+}
+.feedback-frm .feedback-frm-btn-primary {
+  background: #d8b45e;
+  border-bottom-color: #c2a254;
+}
+.feedback-frm .feedback-frm-btn-primary:hover {
+  background: #f5cd6d;
+}
+.feedback-frm .fn-ml-20 {
+  margin-left: 20px;
+}
 /*
 --- index ---
 */

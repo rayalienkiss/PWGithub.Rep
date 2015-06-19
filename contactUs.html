@@ -398,7 +398,7 @@
                         <span>
                             客户服务
                         </span>
-                        <a href="javascript:void(0);">
+                        <a href="javascript:void(0);" class="j-feedback" data-popup="#J_popup_fb">
                             意见反馈
                         </a>
                         <a href="service.html">
@@ -458,7 +458,43 @@
                 </div>
             </div>
         </div>
-
+         <!--意见反馈弹层-->
+        <div class="popwin-bg feedback-pop" id="J_popup_fb">
+            <div>
+                <b></b>
+                <div class="popwin-wrap feedback-wrap">
+                    <a href="###" class="popwin-close j-feedback-close" data-popup="#J_popup_fb">
+                        <i class="icon-cross"></i>
+                    </a>
+                    <div class="popwin-content">
+                        <div class="popwin-head">意见反馈</div>
+                        <div class="popwin-bd">
+                            <form action="#" class="feedback-frm">
+                                <div class="feedback-frm-item">
+                                    <input type="text" placeholder="请输入您的姓名" class="feedback-frm-input" />
+                                </div>
+                                <div class="feedback-frm-item">
+                                    <input type="text" placeholder="请输入您的手机号码" class="feedback-frm-input" />
+                                </div>
+                                <div class="feedback-frm-item">
+                                    <input type="text" placeholder="请输入您的邮箱" class="feedback-frm-input" />
+                                </div>
+                                <div class="feedback-frm-item">
+                                    <textarea class="feedback-frm-input feedback-frm-textarea"></textarea>
+                                </div>
+                                <div class="feedback-frm-item">
+                                    您还可以输入<em id="j-txt-limit">200</em>字
+                                </div>
+                                <div class="feedback-frm-item">
+                                    <button type="button" class="feedback-frm-btn feedback-frm-btn-primary">提交</button>
+                                    <button type="button" class="feedback-frm-btn fn-ml-20 j-feedback-close" data-popup="#J_popup_fb">取消</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <script type="text/javascript" src="ow_depend/js/jquery-1.11.1.min.js"></script>
         <script type="text/javascript" src="ow_depend/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="ow_depend/js/framwork.min.js"></script>

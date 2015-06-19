@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta http-equiv="Cache-Control" content="no-siteapp"/>
+        <meta name="renderer" content="webkit">
+        <meta name="viewport" content="width=1080"/>
+        <meta name="copyright" content="本页版权归www.frontpay.cn所有·All Rights Reserved">
+        <meta name="author" content="www.frontpay.cn"/>
+        <meta name="keyword" content="钱沿支付,E+账户,债权支付,债权转让,充值投资,交易担保,0交易手续费,投资平台信用支付解决方案，电商预付费支付解决方案，垂直电商平台支付解决方案，交易平台担保支付解决方案，企业自动划扣支付解决方案，线下商户会员预付费解决方案，集团供应链支付结算解决方案,钱途互联"/>
+        <meta name="description" content="钱沿支付,是由广东钱途互联商务服务有限公司顺应互联网的发展,以实现支付场景的丰富性,突破解决网银和第三方支付的支付局限性为出发点,创新打造的全新债权支付工具.致力于为广大用户提供安全快速的电子支付/网上支付/安全支付体验,及充值/转账/提现/付款/收款等服务应用."/>
+        <meta name="Robots"content="all"/>
+        
+        <title>隐私条款– 钱沿支付</title>
+
+        <!-- 页面样式 -->
+        <link rel="stylesheet" href="ow_depend/css/bottomNavPage.min.css">
+
+        <!-- 字体图标兼容 IE 76 样式 -->   
+        <!--[if lte IE 7]>
+            <link rel="stylesheet" href="ow_depend/css/fonticon-ie-76.min.css">
+        <![endif]-->
+    
+        <!--[if lt IE 9]>
+		    <link rel="stylesheet" type="text/css" href="ow_depend/css/ie-876.min.css">
+        <![endif]-->
+        
+        <!-- 字体图标 IE 7 以下JS兼容 -->
+        <!--[if lte IE 7]>
+		    <script type="text/javascript" src="ow_depend/js/fonticon-ie-76.min.js"></script>
+        <![endif]-->
+
+        <!-- html5 Dom 替换方案 以支持IE7 -->
+        <!--[if lte IE 9]>
+		    <script type="text/javascript" src="ow_depend/js/html5.js"></script>
+        <![endif]-->
+        <!--[if IE 9]>
+		    <script type="text/javascript" src="ow_depend/js/respond.min.js"></script>
+        <![endif]-->
+        
+        <link rel="shortcut icon" href="ow_depend/img/favicon.ico" />
+        <link rel="bookmark"  type="image/x-icon"  href="ow_depend/img/favicon.ico"/>
+    </head>
+
+    <body>
+
+        <!-- 登录注册弹窗 -->
+        <div class="popwin-bg">
+            <div>
+                <b></b>
+                <div class="popwin-wrap sign-wrap">
+
+                    <!-- 关闭弹窗 -->
+                    <a href="###" class="popwin-close" id="signClose">
+                        <i class="icon-cross"></i>
+                    </a>
+
+                    <!-- 弹窗tab -->
+                    <ul class="sign-tab-wrap">
+                        <li class="active">
+                            <a href="#stc1" data-toggle="tab">
+                                个人用户
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#stc2" data-toggle="tab">
+                                商家用户
+                            </a>
+                        </li>
+                    </ul>
+
+                    <!-- #stc1内容 -->
+                    <div class="tab-pane active" id="stc1">
+
+                        <!-- 个人注册页面 -->
+                        <div class="forms" id="pSignUp">
+                            <p>
+                                已有钱沿支付账号？
+                            </p>
+                            <a href="###" class="default-btn secondary" id="Show_pSignIn">
+                                马上登录
+                            </a>
+                            <div class="sign-left">
+                                <h1>
+                                    注册钱沿支付
+                                </h1>
+                                <form>
+                                    <fieldset>
+                                        <legend>signup form</legend>
+                                        <div class="form-ctrl-wrap signfrom">
+                                            <div class="form-ctrl-box">
+                                                <div class="fv-wrap" style="display: block;">
+                                                    手机号已注册！
+                                                    <span class="shadow"></span>
+                                                    <span></span>
+                                                </div>
+                                                <input class="form-ctrl" type="text" placeholder="请输入手机号码" name="phoneNumber"/>
+                                            </div>
+                                        </div>
+                                        <div class="form-ctrl-wrap signfrom for-ic">
+                                            <div class="form-ctrl-box">
+                                                <div class="fv-wrap" style="display: block;">
+                                                    验证码错误！
+                                                    <span class="shadow"></span>
+                                                    <span></span>
+                                                </div>
+                                                <input class="form-ctrl" type="text" placeholder="请输入验证码" name="vc"/>
+                                            </div>
+                                            <a href="###" class="default-btn tertiary">
+                                                获取验证码
+                                            </a>
+                                        </div> 
+                                        <div class="form-ctrl-wrap" style="padding-bottom: 12px;">
+                                            <label class="form-label">
+                                                <input type="checkbox" checked="checked" name="agreement"/>
+                                                我已阅读并同意《<a href="userServiceAgreement.html" target="_blank" class="label-link">钱沿支付用户服务协议</a>》
+                                            </label>
+                                        </div>
+                                        <div class="form-ctrl-wrap">
+                                            <div class="form-ctrl-box">
+                                                <button type="submit" class="default-btn primary">
+                                                    立即开通
+                                                </button>
+                                            </div>
+                                        </div>                                  
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>   
+
+                        <!-- 个人登录页面 -->
+                        <div class="forms" id="pSignIn" style="display: none;">
+                            <p>
+                                还没有钱沿支付账号？
+                            </p>
+                            <a href="###" class="default-btn secondary" id="Show_pSignUp">
+                                马上注册
+                            </a>
+                            <div class="sign-left">
+                                <h1>
+                                    登录钱沿支付
+                                </h1>
+                                <form>
+                                    <fieldset>
+                                        <legend>signin form</legend>
+                                        <div class="form-ctrl-wrap signfrom">
+                                            <div class="form-ctrl-box">
+                                                <div class="fv-wrap" style="display: block;">
+                                                    手机号错误！
+                                                    <span class="shadow"></span>
+                                                    <span></span>
+                                                </div>
+                                                <input class="form-ctrl" type="text" placeholder="手机号码" name="phoneNumber"/>
+                                            </div>
+                                        </div>
+                                        <div class="form-ctrl-wrap signfrom" style="padding-bottom: 42px;">
+                                            <div class="form-ctrl-box">
+                                                <div class="fv-wrap" style="display: block;">
+                                                    密码错误！
+                                                    <span class="shadow"></span>
+                                                    <span></span>
+                                                </div>
+                                                <input class="form-ctrl" type="password" placeholder="登录密码" name="password"/>
+                                            </div>
+                                        </div> 
+                                        <div class="form-ctrl-wrap">
+                                            <div class="form-ctrl-box">
+                                                <button type="submit" class="default-btn primary">
+                                                    立即登录
+                                                </button>
+                                                <a href="###" class="default-btn link-btn">
+                                                    忘记密码？
+                                                </a>
+                                            </div>
+                                        </div>                                  
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>      
+                                        
+                    </div>
+
+                    <!-- #stc2内容 -->
+                    <div class="tab-pane" id="stc2">
+                        <b>
+                            暂未开放商家登录&nbsp;&nbsp;/&nbsp;&nbsp;注册
+                        </b>
+                    </div>
+
+                </div>
+            </div>   
+        </div>
+
+        <!-- 主导航 -->
+        <nav>
+            <div>
+                <a href="index.html" class="logo">
+                    <img src="ow_depend/img/nav-logo.png?v=20150521a" alt="钱沿支付" title="返回首页"/>
+                </a>
+                <ul class="nav">
+                    <li>
+                        <a href="index.html">
+                            首页
+                        </a>
+                    </li>
+                    <li>
+                        <a href="personService.html">
+                            个人服务
+                        </a>
+                    </li>
+                    <li>
+                        <a href="companyService.html">
+                            企业服务
+                        </a>
+                    </li>
+                    <li>
+                        <a href="solution.html">
+                            行业方案
+                        </a>
+                    </li>
+                    <li>
+                        <a href="aboutUs.html">
+                            关于钱沿
+                        </a>
+                    </li>
+                    <li class="disabled">
+                        <a href="###">
+                            商家服务
+                        </a>
+                    </li>
+                </ul>
+                <div class="sign-box">
+                    <ul class="p1">
+                        <li>
+                            <a href="###" style="cursor: default;">
+                                <i class="icon-telephone01"></i>&nbsp;
+                                400-106-6698
+                            </a>
+                        </li>
+                        <li>
+                            <a href="###" class="disabled">
+                                客户服务
+                            </a>
+                        </li>
+                        <li class="last">
+                            <a href="###" class="disabled">
+                                APP下载
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="p2" >
+                        <li>
+                            <a href="javascript:void(0)" id="signOpen">
+                                登录
+                            </a>
+                            <span>/</span>
+                            <a href="javascript:void(0)" id="registerOpen">注册</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="nav-bg"></div>
+
+        <!-- banner区域 -->
+        <div class="bnp-banner-wrap service"></div>
+
+        <!-- 私隐条款 -->
+        <section class="bnp-content-wrap service-content-wrap">
+            <ul class="info-item clearfix">
+                <li class="info-item-a">
+                    <div>
+                        <h2>服务热线</h2>
+                        <h3>400-106-6698</h3>
+                        <p>工作日9:00-18:00</p>
+                    </div>
+                </li>
+                <li class="info-item-b">
+                    <div>
+                        <h2>意见反馈</h2>
+                        <p>感谢您对钱沿支付的支持，<br />意见建议请<a href="#" data-popup="#J_popup_fb" class="j-feedback">点击这里</a>！</p>
+                    </div>
+                </li>
+            </ul>
+            <div class="bnp-topic-wrap">
+                <h1>
+                    常见问题
+                </h1>
+            </div>
+            <div class="bnp-text-wrap">
+               
+               <dl class="answer-list">
+                   <dt>1. 什么是E+账户？</dt>
+                   <dd>
+                    <i></i>
+                    <div>E+账户是招商银行面向企业及大众推出的一款在线开立，免费跨行结算，有收益的互联网金融创新产品。</div>
+                   </dd>
+               </dl>
+			   <dl class="answer-list">
+                   <dt>2. E+账户的用途？</dt>
+                   <dd>
+                    <i></i>
+                    <div>E+账户招商银行为企业专属定制的支付结算工具，用户充值后的金额不仅可以用于网站上进行支付货款，还可以在此期间产生收益。</div>                    
+                    </dd>
+               </dl>
+               <dl class="answer-list">
+                   <dt>3. 接入E+账户是否收费？</dt>
+                   <dd>
+                    <i></i>
+                    <div>目前，接入E+账户的标准功能暂不收取费用。<br />
+                   如果涉及到个人网关支付，则需要收取网关支付手续费用，收费标准按照市场价格确定。</div>
+                   </dd>
+               </dl>
+               <dl class="answer-list">
+                   <dt>4. 钱途互联是一家怎样的公司，与招商银行的关系怎样？</dt>
+                   <dd>
+                    <i></i>
+                    <div>钱途互联是广东钱途互联商务服务有限公司的简称，是一家专门为各大金融机构、互联网金融平台及其投资理财客户提供创新型金融支付解决方案的互联网公司，与招商银行是战略合作伙伴关系，是E+账户的运营商。</div>
+                   </dd>
+               </dl>
+               <dl class="answer-list">
+                   <dt>5. 已上线、待上线的E+项目有哪些？</dt>
+                   <dd>
+                   <i></i>
+                   <div>目前，E+账户已经对接国内许多知名的客户，如九州通之珍药宝、趣旅网的趣旅宝、智阳之智钱包；允升科技之工业E家等，后续还会陆续接入许多客户。</div></dd>
+               </dl>
+               <dl class="answer-list">
+                   <dt>6. E+账户有哪些类型？</dt>
+                   <dd>
+                    <i></i>
+                    <div>E+账户分个人账户和企业账户两种类型。<br />
+E+账户中根据角色的不同，依接入的不同行业不同服务功能而不同，如买家/卖家、员工/企业、供应商、经销商等。对应系统分用户管理模块和商家管理系统。</div></dd>
+               </dl>
+            </div>
+        </section>
+
+        <!-- new footer -->
+        <div class="new-footer in">
+            <div>
+                <div class="footer-nav-wrap">
+                    <div class="fn-box">
+                        <span>
+                            关于钱途
+                        </span>
+                        <a href="aboutUs.html">
+                            钱途简介
+                        </a>
+                        <a href="recentSituation.html">
+                            企业动态
+                        </a>
+                        <a href="news.html">
+                            媒体报道
+                        </a>
+                    </div>
+                    <div class="fn-box">
+                        <span>
+                            产品介绍
+                        </span>
+                        <a href="solution.html">
+                            行业方案
+                        </a>
+                        <a href="companyService.html">
+                            企业服务
+                        </a>
+                        <a href="personService.html">
+                            个人服务
+                        </a>
+                    </div>
+                    <div class="fn-box">
+                        <span>
+                            客户服务
+                        </span>
+                        <a href="javascript:void(0);" class="j-feedback" data-popup="#J_popup_fb">
+                            意见反馈
+                        </a>
+                        <a href="service.html" >
+                            常见问题
+                        </a>
+                    </div>
+                    <div class="fn-box case">
+                        <p>
+                            客服热线&nbsp;9:00-18:00
+                        </p>
+                        <h1>
+                            400-106-6698
+                        </h1>
+                    </div>
+                    <div class="fn-box right">
+                        <img src="ow_depend/img/qrcodenew.jpg?v=20150615"/>
+                        <p>
+                            官方微信服务号
+                        </p>
+                    </div>
+                </div>
+                <div class="footer-case-wrap">
+                    <ul>
+                        <li>
+                            <a href="recruitmentPost.html">
+                                诚聘英才
+                            </a>
+                        </li>
+                        <li>
+                            <a href="ourPartners.html">
+                                合作伙伴
+                            </a>
+                        </li>
+                        <li>
+                            <a href="legalStatement.html">
+                                法律声明
+                            </a>
+                        </li>
+                        <li>
+                            <a href="privacyClause.html">
+                                隐私条款
+                            </a>
+                        </li>
+                    </ul>
+                    <p>
+                        版权所有&copy;广东钱途互联商务服务有限公司&nbsp;&nbsp;&nbsp;&nbsp;粤ICP备&nbsp;14098252号-2
+                    </p>
+                    <a href="http://webscan.360.cn/index/checkwebsite/url/www.frontpay.cn" class="imglink" target="_blank">
+                        <img src="ow_depend/img/sub1.jpg?v=20150615"/>
+                    </a>
+                    <!--<a href="###" class="imglink">
+                        <img src="ow_depend/img/sub2.jpg?v=20150615"/>
+                    </a>-->
+                    <a href="http://www.gdca.gov.cn/index.asp" class="imglink" target="_blank">
+                        <img src="ow_depend/img/sub3.jpg?v=20150615"/>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!--意见反馈弹层-->
+        <div class="popwin-bg feedback-pop" id="J_popup_fb">
+            <div>
+                <b></b>
+                <div class="popwin-wrap feedback-wrap">
+                    <a href="###" class="popwin-close j-feedback-close" data-popup="#J_popup_fb">
+                        <i class="icon-cross"></i>
+                    </a>
+                    <div class="popwin-content">
+                        <div class="popwin-head">意见反馈</div>
+                        <div class="popwin-bd">
+                            <form action="#" class="feedback-frm">
+                                <div class="feedback-frm-item">
+                                    <input type="text" placeholder="请输入您的姓名" class="feedback-frm-input" />
+                                </div>
+                                <div class="feedback-frm-item">
+                                    <input type="text" placeholder="请输入您的手机号码" class="feedback-frm-input" />
+                                </div>
+                                <div class="feedback-frm-item">
+                                    <input type="text" placeholder="请输入您的邮箱" class="feedback-frm-input" />
+                                </div>
+                                <div class="feedback-frm-item">
+                                    <textarea class="feedback-frm-input feedback-frm-textarea"></textarea>
+                                </div>
+                                <div class="feedback-frm-item">
+                                    您还可以输入<em id="j-txt-limit">200</em>字
+                                </div>
+                                <div class="feedback-frm-item">
+                                    <button type="button" class="feedback-frm-btn feedback-frm-btn-primary">提交</button>
+                                    <button type="button" class="feedback-frm-btn fn-ml-20 j-feedback-close" data-popup="#J_popup_fb">取消</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="ow_depend/js/jquery-1.11.1.min.js"></script>
+        <script type="text/javascript" src="ow_depend/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="ow_depend/js/framwork.min.js"></script>
+        <script>
+        </script>
+
+    </body>
+
+</html>
