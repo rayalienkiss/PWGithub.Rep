@@ -271,7 +271,6 @@ function getOut(element) {
                 var placeholder = that.attr('placeholder');
                 pl = $('<label />').html(placeholder);
                 that.before(pl);
-                console.log(that.attr('placeholder'));
                 that.data('pl', pl);
 
                 that.on('blur', function(){
