@@ -1097,20 +1097,6 @@ footer {
 
     .solution-banner-wrap {
         min-width: @base-mainBody-width + 80px;
-
-        &.index {
-            height: 86%;
-        }
-
-        &.nav1-bg,
-        &.nav2-bg,
-        &.nav3-bg,
-        &.nav4-bg,
-        &.nav5-bg,
-        &.nav6-bg,
-        &.nav7-bg {
-            height: 86%;
-        }
     }
 
     footer {
@@ -1129,9 +1115,19 @@ footer {
 
     .solution-banner-wrap {
         min-width: @base-mainBody-width;
+    }
+}
+
+@media ( max-height: 630px ) {
+
+    .solution-banner-wrap {
+
+        .solution-nav-wrap {
+            bottom: 12px;
+        }
 
         &.index {
-            height: 86%;
+            height: 100%;
         }
 
         &.nav1-bg,
@@ -1141,23 +1137,60 @@ footer {
         &.nav5-bg,
         &.nav6-bg,
         &.nav7-bg {
-            height: 86%;
+            height: 100%;
         }
     }
 
     footer {
 
         &.index {
-            top: 86%;
+            top: 100%;
         }
     }
 
     .new-footer {
-        top: 86%;
+        top: 100%;
+    }
+
+    .solution-base {
+        height: 280px !important;
+    }
+
+    .solution-scroll-pages-wrap {
+        margin-top: -175px !important;
+        height: 350px !important;
+
+        .scroll-btn {
+            height: 350px !important;
+            line-height: 350px !important;
+        }
+
+        > ul {
+
+            > li {
+                height: 350px !important;
+            }
+        }
+
+        .scroll-page {
+            height: 350px !important;
+
+            > h1 {
+                font-size: 36px !important;
+                padding: 34px 0 24px 0 !important;
+            }
+
+            > h2 {
+
+                &.c2 {
+                    margin: 20px auto 0 auto !important;
+                }
+            }
+        }
     }
 }
 
-@media ( max-height: 820px ) {
+/*@media ( max-height: 820px ) {
 
     .solution-base {
         height: 280px !important;
@@ -1195,4 +1228,4 @@ footer {
             }
         }
     }
-}
+}*/

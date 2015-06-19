@@ -2923,18 +2923,6 @@ footer.index {
   .solution-banner-wrap {
     min-width: 1080px;
   }
-  .solution-banner-wrap.index {
-    height: 86%;
-  }
-  .solution-banner-wrap.nav1-bg,
-  .solution-banner-wrap.nav2-bg,
-  .solution-banner-wrap.nav3-bg,
-  .solution-banner-wrap.nav4-bg,
-  .solution-banner-wrap.nav5-bg,
-  .solution-banner-wrap.nav6-bg,
-  .solution-banner-wrap.nav7-bg {
-    height: 86%;
-  }
   footer.index {
     top: 86%;
   }
@@ -2946,8 +2934,13 @@ footer.index {
   .solution-banner-wrap {
     min-width: 1000px;
   }
+}
+@media (max-height: 630px) {
+  .solution-banner-wrap .solution-nav-wrap {
+    bottom: 12px;
+  }
   .solution-banner-wrap.index {
-    height: 86%;
+    height: 100%;
   }
   .solution-banner-wrap.nav1-bg,
   .solution-banner-wrap.nav2-bg,
@@ -2956,32 +2949,30 @@ footer.index {
   .solution-banner-wrap.nav5-bg,
   .solution-banner-wrap.nav6-bg,
   .solution-banner-wrap.nav7-bg {
-    height: 86%;
+    height: 100%;
   }
   footer.index {
-    top: 86%;
+    top: 100%;
   }
   .new-footer {
-    top: 86%;
+    top: 100%;
   }
-}
-@media (max-height: 820px) {
   .solution-base {
     height: 280px !important;
   }
   .solution-scroll-pages-wrap {
-    margin-top: -220px !important;
-    height: 440px !important;
+    margin-top: -175px !important;
+    height: 350px !important;
   }
   .solution-scroll-pages-wrap .scroll-btn {
-    height: 440px !important;
-    line-height: 440px !important;
+    height: 350px !important;
+    line-height: 350px !important;
   }
   .solution-scroll-pages-wrap > ul > li {
-    height: 460px !important;
+    height: 350px !important;
   }
   .solution-scroll-pages-wrap .scroll-page {
-    height: 402px !important;
+    height: 350px !important;
   }
   .solution-scroll-pages-wrap .scroll-page > h1 {
     font-size: 36px !important;
@@ -2991,3 +2982,42 @@ footer.index {
     margin: 20px auto 0 auto !important;
   }
 }
+/*@media ( max-height: 820px ) {
+
+    .solution-base {
+        height: 280px !important;
+    }
+
+    .solution-scroll-pages-wrap {
+        margin-top: -220px !important;
+        height: 440px !important;
+
+        .scroll-btn {
+            height: 440px !important;
+            line-height: 440px !important;
+        }
+
+        > ul {
+
+            > li {
+                height: 460px !important;
+            }
+        }
+
+        .scroll-page {
+            height: 402px !important;
+
+            > h1 {
+                font-size: 36px !important;
+                padding: 34px 0 24px 0 !important;
+            }
+
+            > h2 {
+
+                &.c2 {
+                    margin: 20px auto 0 auto !important;
+                }
+            }
+        }
+    }
+}*/
