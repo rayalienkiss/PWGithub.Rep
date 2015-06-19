@@ -1272,10 +1272,12 @@ footer.index > .show {
   display: inline-block;
   vertical-align: top;
 }
-.new-footer .footer-case-wrap > .imglink > img {
+.new-footer .footer-case-wrap > a > img {
   display: block;
   float: right;
   margin-left: 22px;
+  width: 77px;
+  height: 28px;
   /*当没有申请360安全网站时，临时样式*/
   float: none;
   display: inline-block;
@@ -2911,7 +2913,7 @@ footer.index {
   top: 86%;
   left: 0;
 }
-.new-footer.in {
+.new-footer {
   position: absolute;
   width: 100%;
   top: 86%;
@@ -2936,7 +2938,7 @@ footer.index {
   footer.index {
     top: 86%;
   }
-  .new-footer.in {
+  .new-footer {
     top: 86%;
   }
 }
@@ -2959,7 +2961,7 @@ footer.index {
   footer.index {
     top: 86%;
   }
-  .new-footer.in {
+  .new-footer {
     top: 86%;
   }
 }
