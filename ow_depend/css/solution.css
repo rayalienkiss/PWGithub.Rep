@@ -1759,6 +1759,18 @@ footer.index > .show {
   top: -6px;
   right: -36px;
 }
+.feedback-wrap.resault {
+  width: 400px;
+}
+.feedback-wrap.resault .popwin-content {
+  height: auto;
+}
+.feedback-wrap.resault .case-text {
+  text-align: center;
+  font-size: 16px;
+  margin: 0;
+  padding: 20px 0;
+}
 .feedback-frm {
   margin: 50px auto 0;
   width: 418px;
@@ -1775,6 +1787,29 @@ footer.index > .show {
   position: relative;
   margin-bottom: 10px;
 }
+.feedback-frm .feedback-frm-item .ineed {
+  height: 46px;
+  line-height: 56px;
+  font-size: 24px;
+  color: #ea0c0c;
+  position: absolute;
+  left: -20px;
+  top: 0;
+  overflow: hidden;
+}
+.feedback-frm .feedback-frm-item.error .feedback-frm-input {
+  border: 3px solid #ea0c0c;
+  padding: 9px 10px;
+}
+.feedback-frm .feedback-frm-item.error .error-text {
+  display: block;
+  line-height: 46px;
+  color: #ea0c0c;
+  position: absolute;
+  right: -156px;
+  top: 0;
+  width: 156px;
+}
 .feedback-frm .feedback-frm-item label {
   position: absolute;
   top: 13px;
@@ -1786,8 +1821,9 @@ footer.index > .show {
   border: 1px solid #d8d8d8;
   border-radius: 4px;
   height: 46px;
-  line-height: 46px;
-  padding: 0 10px;
+  line-height: 22px;
+  padding: 12px 10px;
+  outline: none;
 }
 .feedback-frm .feedback-frm-textarea {
   height: 120px;
@@ -1807,14 +1843,30 @@ footer.index > .show {
   background: #d1d0d0;
 }
 .feedback-frm .feedback-frm-btn-primary {
-  background: #d8b45e;
-  border-bottom-color: #c2a254;
+  background: #705681;
+  border-bottom-color: #5a4567;
 }
 .feedback-frm .feedback-frm-btn-primary:hover {
-  background: #f5cd6d;
+  background: #816792;
 }
 .feedback-frm .fn-ml-20 {
   margin-left: 20px;
+}
+.feedback-btn-wrap {
+  padding: 0 0 20px 0;
+}
+.feedback-resault-btn {
+  width: 150px;
+  height: 44px;
+  border: none;
+  background-color: #705681;
+  color: #fff;
+  border-bottom-color: #5a4567;
+  border-radius: 4px;
+  margin: 0 auto;
+}
+.feedback-resault-btn:hover {
+  background: #816792;
 }
 /*
 --- solution ---

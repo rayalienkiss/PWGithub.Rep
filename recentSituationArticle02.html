@@ -457,6 +457,7 @@
                 </div>
             </div>
         </div>
+
         <!--意见反馈弹层-->
         <div class="popwin-bg feedback-pop" id="J_popup_fb">
             <div>
@@ -469,17 +470,22 @@
                         <div class="popwin-head">意见反馈</div>
                         <div class="popwin-bd">
                             <form action="#" class="feedback-frm">
-                                <div class="feedback-frm-item">
+                                <div class="feedback-frm-item error">
+                                    <span class="ineed">*</span>
                                     <input type="text" placeholder="请输入您的姓名" class="feedback-frm-input" />
+                                    <span class="error-text">请输入姓名</span>
                                 </div>
-                                <div class="feedback-frm-item">
+                                <div class="feedback-frm-item error">
+                                    <span class="ineed">*</span>
                                     <input type="text" placeholder="请输入您的手机号码" class="feedback-frm-input" />
+                                    <span class="error-text">请输入手机号码</span>
                                 </div>
                                 <div class="feedback-frm-item">
                                     <input type="text" placeholder="请输入您的邮箱" class="feedback-frm-input" />
                                 </div>
                                 <div class="feedback-frm-item">
-                                    <textarea class="feedback-frm-input feedback-frm-textarea"></textarea>
+                                    <span class="ineed">*</span>
+                                    <textarea class="feedback-frm-input feedback-frm-textarea" placeholder="感谢您来到钱沿支付，您的意见或任何不满都将是我们努力改进的方向与动力。"></textarea>
                                 </div>
                                 <div class="feedback-frm-item">
                                     您还可以输入<em id="j-txt-limit">200</em>字
@@ -494,6 +500,30 @@
                 </div>
             </div>
         </div>
+
+        <!--意见反馈结果-->
+        <div class="popwin-bg feedback-pop" id="fb-resault">
+            <div>
+                <b></b>
+                <div class="popwin-wrap feedback-wrap resault">
+                    <a href="###" class="popwin-close j-feedback-close" data-popup="#fb-resault">
+                        <i class="icon-cross"></i>
+                    </a>
+                    <div class="popwin-content">
+                        <div class="popwin-head">提示</div>
+                        <div class="popwin-bd">
+                            <p class="case-text">
+                                您的信息已提交，感谢您的支持！
+                            </p>
+                            <div class="feedback-btn-wrap">
+                                <button type="button" class="feedback-resault-btn">确定</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <script type="text/javascript" src="ow_depend/js/jquery-1.11.1.min.js"></script>
         <script type="text/javascript" src="ow_depend/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="ow_depend/js/framwork.min.js"></script>
