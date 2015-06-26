@@ -1,14 +1,14 @@
-@charset "UTF-8";
+@import url("animate.min.css");
 /*
 --- normalize ---
 */
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+@charset "UTF-8";
 /**
  * 1. Set default font family to sans-serif.
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-@import url("animate.min.css");
 html {
   font-family: sans-serif;
   /* 1 */
@@ -1791,20 +1791,20 @@ footer.index > .show {
   height: 46px;
   line-height: 56px;
   font-size: 24px;
-  color: #ea0c0c;
+  color: #ee7878;
   position: absolute;
   left: -20px;
   top: 0;
   overflow: hidden;
 }
 .feedback-frm .feedback-frm-item.error .feedback-frm-input {
-  border: 3px solid #ea0c0c;
+  border: 3px solid #ee7878;
   padding: 9px 10px;
 }
 .feedback-frm .feedback-frm-item.error .error-text {
   display: block;
   line-height: 46px;
-  color: #ea0c0c;
+  color: #ee7878;
   position: absolute;
   right: -156px;
   top: 0;
