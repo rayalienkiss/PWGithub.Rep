@@ -1,14 +1,14 @@
-@import url("animate.min.css");
+@charset "UTF-8";
 /*
 --- normalize ---
 */
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
-@charset "UTF-8";
 /**
  * 1. Set default font family to sans-serif.
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
+@import url("animate.min.css");
 html {
   font-family: sans-serif;
   /* 1 */
