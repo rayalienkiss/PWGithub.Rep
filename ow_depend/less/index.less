@@ -30,6 +30,8 @@ body {
 
 .num_box {
     position: relative;
+    width: 100%;
+    min-width: @base-mainBody-width;
 }
 
 #num_0 {
@@ -99,6 +101,7 @@ body {
 
 .index-wrap {
     position: relative;
+    min-width: @base-mainBody-width;
     width: @base-mainBody-width;
     margin: 0 auto;
     height: 100%;
@@ -310,13 +313,100 @@ body {
     }
 }
 
-/*
---- just test svn update ---
-*/
 
+#num_4 {
 
+    .new-footer {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        z-index: 3;
+        width: @base-section-wrap-width;
+    }
+}
 
+//媒体查询样式
+@media ( min-width: 320px ) {
 
+    body {
+        overflow: auto;
+    }
+
+    .num_box {
+        display: none;
+    }
+
+    .footer {
+
+        &.index {
+            bottom: -174px;
+            height: 174px;
+        }
+    }
+
+    .fixed_r {
+        display: none;
+    }
+
+    .m_wrap {
+        width: 100%;
+        min-width: @base-mainBody-width + 80px;
+
+        > img {
+            width: 100%;
+            display: block;
+        }
+    }
+
+    .nav-bg,
+    nav {
+        position: fixed;
+    }
+}
+
+@media ( min-width: 1081px ) {
+
+    body {
+        overflow: hidden;
+    }
+
+    .num_box {
+        display: block;
+    }
+
+    .footer {
+
+        &.index {
+            bottom: 0;
+            height: auto;
+        }
+    }
+
+    .fixed_r {
+        display: block;
+    }
+
+    .m_wrap {
+        display: none;
+    }
+
+    .nav-bg,
+    nav {
+        position: absolute;
+    }
+}
+
+.new-footer-arrow {
+    position: absolute;
+    width: 56px;
+    height: 42px;
+
+    top: -90px;
+    left: 50%;
+    margin-left: -23px;
+
+    background: url(../img/arrow.png) 0 -26px;
+}
 
 
 
