@@ -36,8 +36,8 @@ body {
 /* 主导航 */
 .nav-bg,
 nav {
-    background-color: @mainColor1;
-    .opacity-custom( 0.9 );
+    background-color: #fff;
+    .opacity-custom( 1 );
     position: absolute;
     top: 0;
     left: 0;
@@ -82,11 +82,11 @@ nav {
             padding: 0 0 0 25px;
 
             > a {
-                .link-in-dark( #fff,none );
+                .link-in-dark( #333,none );
                 display: block;
                 font-size: @main-nav-fontSize;
                 line-height: 22px;
-                .opacity-custom( 0.7 );
+                .opacity-custom( 1 );
                 .transition( all,0.3s,ease,0 );
 
                 &:hover,
@@ -133,10 +133,10 @@ nav {
 
                 > a {
                     font-size: @base-fontSize - 2px;
-                    .link-in-dark( #fff,none );
+                    .link-in-dark( @link-fontColor,none );
                     display: block;
                     line-height: 12px;
-                    .opacity-custom( 0.4 );
+                    .opacity-custom( 1 );
                     .transition( all,0.3s,ease,0 );
 
                     &:hover,
@@ -167,12 +167,12 @@ nav {
             > li {
 
                 > span {
-                    color: @mainColor2;
+                    color: #999;
                     padding: 0 8px;
                 }
 
                 > a {
-                    .link-in-dark( @mainColor2,none );
+                    .link-in-dark( @link-fontColor,none );
                     padding:0 2px 0 2px;
                     .transition( all,0.3s,ease,0 );
                 }
@@ -299,9 +299,9 @@ footer {
 
 /* 新页脚 */
 .new-footer {
-    background-color: #f7f7f7;
+    background: url("../img/white10.png");
     min-width: @base-mainBody-width;
-    border-top: 2px solid #e3e1e1;
+    //border-top: 2px solid #e3e1e1;
     padding: 25px 0;
 
     > div {

@@ -1,14 +1,14 @@
-@charset "UTF-8";
+@import url("animate.min.css");
 /*
 --- normalize ---
 */
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+@charset "UTF-8";
 /**
  * 1. Set default font family to sans-serif.
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-@import url("animate.min.css");
 html {
   font-family: sans-serif;
   /* 1 */
@@ -636,9 +636,9 @@ body {
 /* 主导航 */
 .nav-bg,
 nav {
-  background-color: #351e47;
-  opacity: 0.9;
-  filter: alpha(opacity=90);
+  background-color: #fff;
+  opacity: 1;
+  filter: alpha(opacity=100);
   position: absolute;
   top: 0;
   left: 0;
@@ -750,12 +750,12 @@ nav .nav > li > a {
   list-style: none;
   outline: none;
   cursor: pointer;
-  color: #ffffff;
+  color: #333333;
   display: block;
   font-size: 16px;
   line-height: 22px;
-  opacity: 0.7;
-  filter: alpha(opacity=70);
+  opacity: 1;
+  filter: alpha(opacity=100);
   -webkit-transition-property: all;
   -moz-transition-property: all;
   -o-transition-property: all;
@@ -777,7 +777,7 @@ nav .nav > li > a:hover,
 nav .nav > li > a:active {
   outline: none;
   text-decoration: none;
-  color: #ffffff;
+  color: #444444;
 }
 nav .nav > li > a:focus {
   text-decoration: none;
@@ -840,11 +840,11 @@ nav .sign-box > .p1 > li > a {
   list-style: none;
   outline: none;
   cursor: pointer;
-  color: #ffffff;
+  color: #0068b7;
   display: block;
   line-height: 12px;
-  opacity: 0.4;
-  filter: alpha(opacity=40);
+  opacity: 1;
+  filter: alpha(opacity=100);
   -webkit-transition-property: all;
   -moz-transition-property: all;
   -o-transition-property: all;
@@ -866,7 +866,7 @@ nav .sign-box > .p1 > li > a:hover,
 nav .sign-box > .p1 > li > a:active {
   outline: none;
   text-decoration: none;
-  color: #ffffff;
+  color: #1179c8;
 }
 nav .sign-box > .p1 > li > a:focus {
   text-decoration: none;
@@ -910,7 +910,7 @@ nav .sign-box > .p2:after {
   clear: both;
 }
 nav .sign-box > .p2 > li > span {
-  color: #d8b45e;
+  color: #999;
   padding: 0 8px;
 }
 nav .sign-box > .p2 > li > a {
@@ -918,7 +918,7 @@ nav .sign-box > .p2 > li > a {
   list-style: none;
   outline: none;
   cursor: pointer;
-  color: #d8b45e;
+  color: #0068b7;
   padding: 0 2px 0 2px;
   -webkit-transition-property: all;
   -moz-transition-property: all;
@@ -941,7 +941,7 @@ nav .sign-box > .p2 > li > a:hover,
 nav .sign-box > .p2 > li > a:active {
   outline: none;
   text-decoration: none;
-  color: #e9c56f;
+  color: #1179c8;
 }
 nav .sign-box > .p2 > li > a:focus {
   text-decoration: none;
@@ -1105,9 +1105,8 @@ footer.index > .show {
 }
 /* 新页脚 */
 .new-footer {
-  background-color: #f7f7f7;
+  background: url("../img/white10.png");
   min-width: 1000px;
-  border-top: 2px solid #e3e1e1;
   padding: 25px 0;
 }
 .new-footer > div {
