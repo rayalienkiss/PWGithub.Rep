@@ -35,7 +35,7 @@ body {
 }
 
 #num_0 {
-    background: url('@{sprite-url}banner_1920/bac1.jpg?v=20150526') #fff center center no-repeat;
+    //background: url('@{sprite-url}banner_1920/bac1.jpg?v=20150526') #fff center center no-repeat;
     background-size: cover;
 }
 
@@ -116,6 +116,11 @@ body {
     margin: 0 auto;
     height: 100%;
 
+    &.video-in {
+        width: auto;
+        min-width: 0;
+    }
+
     img {
         display: block;
         /*position: absolute;*/
@@ -160,7 +165,6 @@ body {
     }
 
     .solgan-8 {
-        
     }
 
     .solgan-7 {
@@ -334,6 +338,40 @@ body {
         width: @base-section-wrap-width;
     }
 }
+
+.video-info {
+    background: url('@{sprite-url}banner_1920/index1.png?v=20150526') center center no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 103%;
+    z-index: 3;
+}
+
+.infokeyframes {
+    .animation-s(videoInfo,1s,linear,1.9s,1,normal,running,both);
+}
+
+.index-fullSlider-video-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    //background: url(../images/4x4.png) repeat;
+    /* background: rgba(000, 000, 000, 0.5)!important; */
+    z-index: 2;
+}
+
+.video-box .video {
+    position: absolute;
+    z-index: 2;
+}
+
+/*video {
+    display: inline-block;
+}*/
 
 //媒体查询样式
 @media ( min-width: 320px ) {

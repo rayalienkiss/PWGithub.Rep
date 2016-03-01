@@ -484,3 +484,17 @@
         }
     }
 }
+
+& {
+    .keyframes( videoInfo );
+
+    .-frames(@-...) {
+        0% {
+            .opacity-custom(0);
+        }
+
+        100% {
+            .opacity-custom(1);
+        }
+    }
+}

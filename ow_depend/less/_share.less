@@ -43,13 +43,13 @@ nav {
     left: 0;
     width: 100%;
     height: 82px;
-    z-index: 2;
+    z-index: 4;
     min-width: @base-mainBody-width;
 }
 
 nav {
     .opacity-custom( 1 );
-    z-index: 3;
+    z-index: 5;
     background-color: transparent;
     display: block;
 
@@ -129,11 +129,11 @@ nav {
             > li {
                 padding: 0 7px 0 0;
                 margin: 0 0 0 7px;
-                border-right: 1px solid #513b64;
+                border-right: 1px solid #ddd;
 
                 > a {
                     font-size: @base-fontSize - 2px;
-                    .link-in-dark( @link-fontColor,none );
+                    .link-in-dark( #333,none );
                     display: block;
                     line-height: 12px;
                     .opacity-custom( 1 );
@@ -299,7 +299,8 @@ footer {
 
 /* 新页脚 */
 .new-footer {
-    background: url("../img/white10.png");
+    background: url("../img/footerBg.png") transparent center center no-repeat;
+    background-size: cover;
     min-width: @base-mainBody-width;
     //border-top: 2px solid #e3e1e1;
     padding: 25px 0;
@@ -312,24 +313,24 @@ footer {
     .footer-nav-wrap {
         .clearfix();
         padding: 0 0 25px 0;
-        border-bottom: 1px solid #dbdbdb;
+        border-bottom: 1px solid #294d7a;
 
         .fn-box {
             height: 132px;
-            border-left: 1px solid #dbdbdb;
+            border-left: 1px solid #294d7a;
             float: left;
             padding: 0 50px;
 
             > a {
                 display: block;
-                .link( @base-fontColor,1,none );
+                .link( #9ebde1,1,none );
                 text-align: center;
                 height: 33px;
                 line-height: 33px;
 
                 &:hover,
                 &:active {
-                    color: #7d4997;
+                    color: #fff;
                 }
 
                 &.disabled {
@@ -342,13 +343,13 @@ footer {
                 display: block;
                 font-size: 16px;
                 text-align: center;
-                color: @sub-fontColor;
+                color: #fff;
                 height: 33px;
                 line-height: 33px;
             }
 
             &.case {
-                background: url("@{sprite-url}newfooter_bg.jpg?v=20150615") 36px 36px no-repeat;
+                background: url("@{sprite-url}newfooter_bg.png?v=20150615") 36px 36px no-repeat;
                 padding: 0 0 0 114px;
 
                 > p {
@@ -360,8 +361,9 @@ footer {
                 > h1 {
                     margin: 0;
                     font-size: 32px;
-                    color: @main-topicColor;
+                    color: #fff;
                     line-height: 1.4;
+                    font-weight: 500;
                 }
             }
 
@@ -385,7 +387,7 @@ footer {
     }
 
     .footer-case-wrap {
-        border-bottom: 1px solid #dbdbdb;
+        border-bottom: 1px solid #294d7a;
         .clearfix();
         padding: 12px 0;
         /*当没有申请360安全网站时，临时样式*/
@@ -402,17 +404,17 @@ footer {
             vertical-align: top;
 
             > li {
-                border-right: 1px solid @main-topicColor;
+                border-right: 1px solid #294d7a;
                 padding: 0 10px 0 0;
                 margin: 0 10px 0 0;
                 width: auto !important;
 
                 > a {
-                    .link( @main-topicColor,1,none );
+                    .link( #9ebde1,1,none );
 
                     &:hover,
                     &:active {
-                        color: #7d4997;
+                        color: #fff;
                     }
                 }
 
